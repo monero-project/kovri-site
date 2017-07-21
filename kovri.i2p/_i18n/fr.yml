@@ -10,10 +10,10 @@ langs:
   fr: Français
   it: Italiano
 pages:
-  Home:
-  Get Started:
-  Contributing: 
-  FAQ: 
+  Home: Accueil
+  Get Started: Commencer
+  Contributing: Contribuer
+  FAQ: FAQ
 titles:
   index: Qu'est-ce que Kovri?
   acknowledgements: Reconnaissances
