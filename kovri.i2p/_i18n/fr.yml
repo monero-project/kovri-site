@@ -7,19 +7,19 @@ langs:
   en: English
   es: Español
   ru: Русский
-  fr: French
+  fr: Français
   it: Italiano
 pages:
-  Home:
-  Get Started:
-  Contributing: 
-  FAQ: 
+  Home: Accueil
+  Get Started: Commencer
+  Contributing: Contribuer
+  FAQ: FAQ
 titles:
-  index: What is Kovri?
-  acknowledgements: Acknowledgements
-  quality: Quality Assurance
-  contributing: General Contribution Guidelines
-  building: Building Instructions
+  index: Qu'est-ce que Kovri?
+  acknowledgements: Reconnaissances
+  quality: Qualité
+  contributing: Guide de contribution
+  building: Instructions de compilation
   faq: FAQ
-  style: Style Guide
-  user: User Guide
+  style: Guide de Style
+  user: Guide pour utilisateurs
