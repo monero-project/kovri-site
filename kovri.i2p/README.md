@@ -169,7 +169,7 @@ Let's say that we're going to translate the [Building Page](https://getkovri.org
 
 #### 2.iii.a Fork that Code!
 
-The first step is to get the website files. You can do everything I'm going to show you from within the GitHub website, so you don't need any programs on your computer. Fork the Kovri website or download the [files](https://github.com/monero-project/kovri-site).
+Fork the Kovri website and clone the repository recursively with `$ git clone --recurisve https://github.com/monero-project/kovri-site`.
 
 For this, you're going to need to know how to use Markdown. It's basically a in-between language that enables people who don't know HTML to just write, and it will be compiled into HTML for you. You can find a great Markdown cheat sheet with examples [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links). If you need more help, Google and YouTube are great resources.
 
@@ -190,6 +190,8 @@ You're  going to need to open up the original file from the correct language fol
 Keep that tab or window open and open another one. Find the folder that represents your language (don't know which? contact me and I'll let you know) and open it. Find the file with the same name as the other one (*building.md* in our example) and open it.
 
 #### 2.iii.c Translate it!
+
+**Note: all translations to documentation are done to the kovri-docs repo at https://github.com/monero-project/kovri-docs**
 
 You can leave all of the markdown formatting intact and simply change the words after or between it. So for example you can take this text:
 
