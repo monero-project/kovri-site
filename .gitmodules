@@ -1,3 +1,3 @@
 [submodule "kovri.i2p/kovri-docs"]
-	path = kovri.i2p/kovri-docs
+	path = deps/kovri-docs
 	url = https://github.com/monero-project/kovri-docs.git
