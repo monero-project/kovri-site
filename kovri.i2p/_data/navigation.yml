@@ -90,11 +90,11 @@ fr:
 it:
 - title: Home
   url: index.html
-- title: Scarica
+- title: Download
   url: https://github.com/monero-project/kovri#nightly-releases-bleeding-edge
 - title: Inizia ora
   subfolderitems:
-    - page: Costruzione
+    - page: Compilazione
       url: building.html
     - page: Guida utente
       url: user_guide.html
