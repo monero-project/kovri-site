@@ -8,6 +8,7 @@ pages:
   Get Started:
   Contributing: 
   FAQ:
+  Legal:
 langs:
   en: English
   es: Español
@@ -25,3 +26,4 @@ titles:
   faq: FAQ
   style: Style Guide
   user: User Guide
+  legal: Legal

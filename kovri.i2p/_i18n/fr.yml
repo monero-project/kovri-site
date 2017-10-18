@@ -16,6 +16,7 @@ pages:
   Get Started: Commencer
   Contributing: Contribuer
   FAQ: FAQ
+  Legal: Stand
 titles:
   index: Qu'est-ce que Kovri?
   acknowledgements: Reconnaissances
@@ -25,3 +26,4 @@ titles:
   faq: FAQ
   style: Guide de Style
   user: Guide pour utilisateurs
+  legal: Legal
