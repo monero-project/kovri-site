@@ -24,7 +24,6 @@
                                 {% endif %}
                                 </div>
                              </div>
-
                         </div>
                         {% endfor %}
                     {% when 'es' %}
@@ -145,7 +144,7 @@
             <nav class="container">
             <div class="topnav">
               <div class="row middle-xs">
-                  <div class="col-lg-7 col-md-6 col-sm-6 col-xs-4">
+                  <div class="col-lg-4 col-md-4 col-sm-6 col-xs-4">
                     <a href="
                     
                     {% if site.lang == 'en' %}
@@ -160,12 +159,15 @@
                     
                     "><img src="{{ '/img/kovri_logo.png' | prepend: site.baseurl_root }}" alt="The Kovri I2P Router Project" class="monero-logo"></a>
                   </div>
-                  <div class="col-lg-5 col-md-6 col-sm-12 topnav-list">
+                  <div class="col-lg-8 col-md-8 col-sm-12 topnav-list">
                       <div class="row end-xs">
-                         <div class="col-xs-6 text-center top-link">
+                        <div class="col-xs-4 text-center top-link">
+                             <a href="https://getmonero.org" class="mob">Monero</a>
+                         </div>
+                         <div class="col-xs-4 text-center top-link">
                              <a href="https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md" class="mob">Vulnerability Response</a>
                          </div>
-                          <div class="dropdown col-xs-6 text-center language-change">
+                          <div class="dropdown col-xs-4 text-center language-change">
                             <label for="langdrop">
                             
                             {% for lang in site.languages %}
