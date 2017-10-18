@@ -2,7 +2,7 @@ title: The Kovri I2P Router Project
 description: Kovri, a secure, private, untraceable C++ router implementation of I2P
 baseurl: ""
 permalink: /:title/
-exclude: [".gitignore", "README.md"]
+exclude: [".gitignore", "README.md", "doc"]
 # Plugins
 plugins: 
   - jekyll-multiple-languages-plugin
