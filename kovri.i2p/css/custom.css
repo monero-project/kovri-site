@@ -154,6 +154,9 @@ img {max-width: 100%;}
 
 .info-block, .white-nav {
     background-color: #e8ebef;
+    -moz-box-shadow: 0 2px 4px rgba(50,50,93,.25);
+    -webkit-box-shadow: 0 2px 4px rgba(50,50,93,.25);
+    box-shadow: 0 2px 4px rgba(50,50,93,.25);
 }
 
 code {
@@ -430,7 +433,6 @@ img.monero-logo {
     display: block;
     color: #393939;
     text-decoration: none;
-    text-transform: uppercase;
     font-family: 'Hind', sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
@@ -805,7 +807,7 @@ p {
         top: 0;
         bottom: 0;
         width: 70vw;
-        background-color: #fcfcfc;
+        background-color: #f4f6f9;
         -moz-transition: right 0.5s, left 0.5s;
         -webkit-transition: right 0.5s, left 0.5s;
         transition: right 0.5s, left 0.5s;
@@ -842,7 +844,7 @@ label[for="mobile-burger"] {
 }
     
 .slide-in {
-        padding-top: 3.5rem;
+        padding-top: 3.8rem;
         width: 100%;
     }
     
