@@ -1,7 +1,8 @@
 <section class="container full col-xs-12">
     <div class="info-block info-block-main">
+        <div class="main-bg">
         <div class="row middle-xs">
-            <div class="col-lg-8 col-md-8 col-xs-12">
+            <div class="col-lg-9 col-md-9 col-xs-12">
                 <div class="main-info">
                     <h1 id="main-h1">Kovri</h1>
                     <p id="main-text">
@@ -18,9 +19,7 @@ Watch development via the Kovri repo and join the community.</p>
                     <p><a href="/get-started/using/" class="btn-link btn-auto btn-primary">Get Started</a></p>
 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-xs-12 main-video">
-                <p>Content</p>
-            </div>
+        </div>
         </div>
     </div>
 </section>
@@ -41,6 +40,10 @@ Watch development via the Kovri repo and join the community.</p>
             <div class="info-block">
                 <div class="row center-xs">
                     <div class="col"><h2>Downloads</h2></div>
+                </div>
+                <div class="row center-xs">
+                    <p><a href="#" class="btn-fixed">Kovri Binaries</a></p>
+                    <p><a href="#" class="btn-fixed">Build from Source</a></p>
                 </div>
             </div>
         </div>

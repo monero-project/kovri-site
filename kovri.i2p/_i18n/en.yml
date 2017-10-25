@@ -17,6 +17,7 @@ pages:
   Contributing: 
   FAQ:
   Legal:
+  Kovri Documentation: Kovdocs
 titles:
   index: What is Kovri?
   acknowledgements: Acknowledgements
@@ -27,3 +28,4 @@ titles:
   style: Style Guide
   user: User Guide
   legal: Legal
+  Kovri Documentation: Kovdocs

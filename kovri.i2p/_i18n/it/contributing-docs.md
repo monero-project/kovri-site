@@ -1,7 +1,5 @@
-# Contributing
-
 ## Quality Assurance
-- View our [Quality Assurance](https://github.com/monero-project/kovri-docs/blob/master/i18n/en/quality.md) guide to get an idea of proposed workflow
+- View our [Quality Assurance](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/quality.md) guide to get an idea of proposed workflow
 
 ## Compliance
 - We aim for complete C++11/14 compliance; feel free to use this to your advantage with your work
@@ -11,7 +9,7 @@
 To contribute your work, please proceed with the following:
 
 1. Fork Kovri
-2. Read our [style guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/en/style.md)
+2. Read our [style guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/style.md)
 3. Create a [topic branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 4. [**Sign**](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) your commit(s)
 5. Send a pull-request to branch ```master```
@@ -27,11 +25,11 @@ To contribute a proposal, please review our [open issues](https://github.com/mon
 
 Even though our C4 dictates that we merge everything, we ask that you open a proposal for the following reasons:
 
-1. A proposal opens up communication
-2. A proposal shows that the contributor respects the input of all project collaborators
+1. A proposal open up communication
+2. A proposal show that the contributor respects the input of all project collaborators
 3. A proposal allows seamless collaborator input in an open forum
 4. A proposal saves time if a collaborator is working on a similar feature/issue
-5. A proposal prevents catastrophes and mishaps or allows collaborators to prepare for catastrophes and mishaps
+5. A proposal prevents catasrophes and mishaps or allows collaborators to prepare for catasrophes and mishaps
 
 *Not* opening a proposal will *not* prevent you from contributing; we will merge what you PR - but a proposal is highly recommended.
 
