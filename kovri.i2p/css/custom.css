@@ -149,6 +149,9 @@ code {
     padding: 0.2rem;
     margin: 0 0.2rem;
     border-radius: 0.2rem;
+    text-indent: 0;
+    line-height: 1.1rem;
+    word-wrap: break-word;
 }
 
 pre.highlight {
@@ -156,6 +159,7 @@ pre.highlight {
     color: white;
     padding: 0.7rem;
     border-radius: 0.2rem;
+    text-indent: -6px;
 }
 
 .arrow-down {
