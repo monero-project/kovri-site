@@ -42,14 +42,14 @@
                         </div>
                     </div>
                     <div class="row start-xs">
-                        <p>NAT/Firewall instructions</p>
+                        <p>Kovri should randomly generate a new port to use on startup, but if you want to choose your own, you can go to kovri.conf and set any port between 9111 and 30777. See the <a href="docs.html">User Guide</a> in the documentation for more details.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <section class="container">
-        <div class="row">      
+        <div class="row">   
             <!-- full block-->
             <div class="full col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <div class="info-block text-adapt">
@@ -59,7 +59,15 @@
                         </div>
                     </div>
                     <div class="row start-xs">
-                        <p>Opsec discussion</p>
+                        <p>Kovri can help keep you anonymous to a point, but it can't defend against user error. For this reason, we recommend a few opsec-related housekeeping things.</p>
+                        <p>
+                            <ol>
+                                <li>Make a designated user for running Kovri, and ONLY run Kovri using that user.</li>
+                                <li>We recommend using Linux, and a even then consider using a hardened kernel (such as <a href="https://en.wikibooks.org/wiki/Grsecurity">grsec</a> with RBAC)</li>
+                                <li>After installing the appropriate resources in your kovri data path, consider setting appropriate access control with <a href="https://linux.die.net/man/1/setfacl">setfacl</a>, <a href="https://en.wikipedia.org/wiki/Umask">umask</a>, or whatever your OS uses for ACL.<br><em>Note: see kovri.conf to find your data path for Linux/OSX/Windows</em></li>
+                                <li><strong>Never share your port number with anyone as it will effect your anonymity!</strong></li>
+                            </ol>
+                        </p>
                     </div>
                 </div>
             </div>
