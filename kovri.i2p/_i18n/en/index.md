@@ -31,7 +31,8 @@ Watch development via the Kovri repo and join the community.</p>
                     <div class="col"><h2>What is Kovri?</h2></div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12"><p class="main-downloads">Need it for a different operating system? <a href="/downloads/">View all available downloads here.</a></p>
+                    <div class="col-xs-12">
+                        <p class="main-downloads">Space saved for Kovri video.</p>
                     </div>
                 </div>
             </div>
