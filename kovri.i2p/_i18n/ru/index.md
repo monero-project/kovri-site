@@ -1,17 +1,25 @@
 <section class="container full col-xs-12">
     <div class="info-block info-block-main">
+        <div class="main-bg">
         <div class="row middle-xs">
-            <div class="col-lg-7 col-md-7 col-xs-12 main-video">
-                <p>Content</p>
-            </div>
-            <div class="col-lg-5 col-md-5 col-xs-12">
+            <div class="col-lg-9 col-md-9 col-xs-12">
                 <div class="main-info">
-                    <h1 id="main-h1">Monero</h1>
-                    <h2 id="main-h2">Private Digital Currency</h2>
-                    <p id="main-text">Monero is a secure, private, and untraceable cryptocurrency. It is open-source and accessible to all. With Monero, you are your own bank. Only you control and are responsible for your funds. Your accounts and transactions are kept private from prying eyes.</p>
-                    <p><a href="/get-started/using/" class="btn-link btn-auto btn-primary">Get Started</a></p>
-                </div>
+                    <h1 id="main-h1">Kovri</h1>
+                    <p id="main-text">
+
+Kovri is a free, decentralized, anonymity technology developed by Monero.
+
+Currently based on I2P’s open specifications, Kovri uses both garlic encryption and garlic routing to create a private, protected overlay-network across the internet. This overlay-network provides users with the ability to effectively hide their geographical location and internet IP address.
+
+Essentially, Kovri covers an application’s internet traffic to make it anonymous within the network.
+
+A lightweight and security-focused router, Kovri is fully compatible with the I2P network. An alpha version of Kovri is in the works.
+
+Watch development via the Kovri repo and join the community.</p>
+                    <p><a href="get-kovri.html" class="btn-link btn-auto btn-primary">Get Started</a></p>
+</div>
             </div>
+        </div>
         </div>
     </div>
 </section>
@@ -32,6 +40,10 @@
             <div class="info-block">
                 <div class="row center-xs">
                     <div class="col"><h2>Downloads</h2></div>
+                </div>
+                <div class="row center-xs">
+                    <p><a href="#" class="btn-fixed">Kovri Binaries</a></p>
+                    <p><a href="#" class="btn-fixed">Build from Source</a></p>
                 </div>
             </div>
         </div>

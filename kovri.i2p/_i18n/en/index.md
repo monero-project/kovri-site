@@ -16,7 +16,7 @@ Essentially, Kovri covers an application’s internet traffic to make it anonymo
 A lightweight and security-focused router, Kovri is fully compatible with the I2P network. An alpha version of Kovri is in the works.
 
 Watch development via the Kovri repo and join the community.</p>
-                    <p><a href="/get-started/using/" class="btn-link btn-auto btn-primary">Get Started</a></p>
+                    <p><a href="get-kovri.html" class="btn-link btn-auto btn-primary">Get Started</a></p>
 </div>
             </div>
         </div>
