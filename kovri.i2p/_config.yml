@@ -4,10 +4,10 @@ baseurl: ""
 permalink: /:title/
 exclude: [".gitignore", "README.md"]
 # Plugins
-gems: 
+plugins: 
   - jekyll-multiple-languages-plugin
 
 # jekyll-multiple-languages-plugin settings:
-languages: ["en", "es", "ru", "fr", "it"]
+languages: ["en", "es", "ru", "fr", "it", "de"]
 
 exclude_from_localizations: ["img", "css", "fonts", "Kovri Website Instructions.md"]
