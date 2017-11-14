@@ -1242,3 +1242,9 @@ p {
 .tabPanel-widget label h2 {
     position: fixed;
 }
+
+@media only screen and (max-width: 62rem) {
+    
+
+
+}
