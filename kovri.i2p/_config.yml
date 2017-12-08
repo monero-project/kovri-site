@@ -8,6 +8,6 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 # jekyll-multiple-languages-plugin settings:
-languages: ["en", "es", "ru", "fr", "it", "de"]
+languages: ["en", "es", "ru", "fr", "it", "de", "da"]
 
 exclude_from_localizations: ["img", "css", "fonts", "Kovri Website Instructions.md"]

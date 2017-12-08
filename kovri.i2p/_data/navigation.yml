@@ -129,3 +129,25 @@ de:
       url: quality_assurance.html
 - title: FAQ
   url: FAQ.html
+  
+da:
+- title: Home
+  url: index.html
+- title: Download
+  url: https://github.com/monero-project/kovri#nightly-releases-bleeding-edge
+- title: Get Started
+  subfolderitems:
+  - page: Building
+    url: building.html
+  - page: User Guide
+    url: user_guide.html
+- title: Contributing
+  subfolderitems:
+    - page: General
+      url: contributing.html
+    - page: Style
+      url: style.html
+    - page: Quality
+      url: quality_assurance.html
+- title: FAQ
+  url: FAQ.html
