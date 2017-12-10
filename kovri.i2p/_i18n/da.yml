@@ -12,16 +12,16 @@ langs:
   de: Deutsch
   da: Dansk
 pages:
-  Home:
-  Get Started:
-  Contributing: 
-  FAQ: 
+  Home: Hjem
+  Get Started: Kom i gang
+  Contributing: Bidrag
+  FAQ: FAQ
 titles:
-  index: What is Kovri?
-  acknowledgements: Acknowledgements
-  quality: Quality Assurance
-  contributing: General Contribution Guidelines
-  building: Building Instructions
+  index: Hvad er Kovri?
+  acknowledgements: Anderkendelser
+  quality: Kvalitetssikring
+  contributing: Generelle bidrags retningslinjer
+  building: Bygge instruktioner
   faq: FAQ
-  style: Style Guide
-  user: User Guide
+  style: Stil Guide
+  user: Bruger Guide
