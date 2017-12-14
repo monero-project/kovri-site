@@ -131,23 +131,23 @@ de:
   url: FAQ.html
   
 da:
-- title: Home
+- title: Hjem
   url: index.html
 - title: Download
   url: https://github.com/monero-project/kovri#nightly-releases-bleeding-edge
-- title: Get Started
+- title: Kom i gang
   subfolderitems:
-  - page: Building
+  - page: Byg Kovri
     url: building.html
-  - page: User Guide
+  - page: Bruger Guide
     url: user_guide.html
-- title: Contributing
+- title: Bidrag
   subfolderitems:
-    - page: General
+    - page: Generelt
       url: contributing.html
-    - page: Style
+    - page: Stil
       url: style.html
-    - page: Quality
+    - page: Kvalitet
       url: quality_assurance.html
 - title: FAQ
   url: FAQ.html
