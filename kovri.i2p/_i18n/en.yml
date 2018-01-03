@@ -1,8 +1,5 @@
 global:
   language: English
-  about: About
-  twitter: Twitter
-  github: GitHub
 langs:
   en: English
   es: Español
@@ -11,15 +8,10 @@ langs:
   it: Italiano
   de: Deutsch
   da: Dansk
-pages:
-  Home:
-  Get Started:
-  Contributing: 
-  FAQ:
-  Legal:
-  Kovri Documentation: Kovdocs
 titles:
   index: What is Kovri?
+  get-kovri: Get Kovri
+  intro: Introduction
   acknowledgements: Acknowledgements
   quality: Quality Assurance
   contributing: General Contribution Guidelines
@@ -28,4 +20,5 @@ titles:
   style: Style Guide
   user: User Guide
   legal: Legal
-  Kovri Documentation: Kovdocs
+  docs: Kovri Documentation
+  blog: Kovri Blog Posts

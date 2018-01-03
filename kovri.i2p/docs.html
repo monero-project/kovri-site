@@ -1,11 +1,11 @@
 ---
 layout: custom
-title: Kovri Documentation
+title: titles.docs
 permalink: docs
 ---
 
-
-<article class="container full">
+<div class="documentation">
+<article class="container full desktop">
         <div class="row center-xs">
             <div class="col"><h1 class="page-title">{%t page.title%}</h1></div>
         </div>
@@ -18,7 +18,7 @@ permalink: docs
                             <div class="tabPanel-content info-block">
                               <div class="row">
                                 <div class="col-xs-12">
-                                    <h3>Documentation Introduction</h3>
+                                    <h3>{% t titles.intro %}</h3>
                                 </div>
                                 <div class="col-xs-12">
                                     <p>{%tf intro.md%}</p>
@@ -28,7 +28,7 @@ permalink: docs
                             </div>
                             <label for="tab-2" tab index="0"></label>
                             <input id="tab-2" type="radio" name="tabs" aria-hidden="true">
-                            <h2>Building</h2>
+                            <h2>{% t titles.building %}</h2>
                             <div class="tabPanel-content info-block">
                               <div class="row">
                                         <div class="col-xs-12">
@@ -39,7 +39,7 @@ permalink: docs
                             </div>
                             <label for="tab-3" tabindex="0"></label>
                             <input id="tab-3" type="radio" name="tabs" aria-hidden="true">
-                            <h2>Contributing</h2>
+                            <h2>{% t titles.contributing %}</h2>
                             <div class="tabPanel-content info-block">
                               <div class="row">
                                         <div class="col-xs-12">
@@ -50,7 +50,7 @@ permalink: docs
                             </div>
                             <label for="tab-4" tabindex="0"></label>
                             <input id="tab-4" type="radio" name="tabs" aria-hidden="true">
-                            <h2>Style Guide</h2>
+                            <h2>{% t titles.style %}</h2>
                             <div class="tabPanel-content info-block">
                               <div class="row">
                                         <div class="col-xs-12">
@@ -61,7 +61,7 @@ permalink: docs
                             </div>
                             <label for="tab-5" tabindex="0"></label>
                             <input id="tab-5" type="radio" name="tabs" aria-hidden="true">
-                            <h2>Quality Control</h2>
+                            <h2>{% t titles.quality %}</h2>
                             <div class="tabPanel-content info-block">
                               <div class="row">
                                         <div class="col-xs-12">
@@ -72,7 +72,7 @@ permalink: docs
                             </div>
                             <label for="tab-6" tabindex="0"></label>
                             <input id="tab-6" type="radio" name="tabs" aria-hidden="true">
-                            <h2>User Guide</h2>
+                            <h2>{% t titles.user %}</h2>
                             <div class="tabPanel-content info-block">
                               <div class="row">
                                         <div class="col-xs-12">
@@ -84,3 +84,57 @@ permalink: docs
         </div>
         </div>
 </article>
+<article class="mobile">
+  <div class="container full">
+       <div class="row info-block-row">
+           <div class="info-block text-adapt">
+            <div class="col-xs-12">
+                <div class="tab">
+                    <input id="tab-one" type="checkbox" name="tabs" class="accordion">
+                    <label for="tab-one" class="accordion">{% t titles.intro %}</label>
+                    <div class="tab-content">
+                        <p>{%tf intro.md%}</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input id="tab-two" type="checkbox" name="tabs" class="accordion">
+                    <label for="tab-two" class="accordion">{% t titles.building %}</label>
+                    <div class="tab-content">
+                        <p>{%tf building.md%}</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input id="tab-three" type="checkbox" name="tabs" class="accordion">
+                    <label for="tab-three" class="accordion">{% t titles.contributing %}</label>
+                    <div class="tab-content">
+                        <p>{%tf contributing-docs.md%}</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input id="tab-four" type="checkbox" name="tabs" class="accordion">
+                    <label for="tab-four" class="accordion">{% t titles.style %}</label>
+                    <div class="tab-content">
+                        <p>{%tf style.md%}</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input id="tab-five" type="checkbox" name="tabs" class="accordion">
+                    <label for="tab-five" class="accordion">{% t titles.quality %}</label>
+                    <div class="tab-content">
+                        <p>{%tf quality.md%}</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input id="tab-six" type="checkbox" name="tabs" class="accordion">
+                    <label for="tab-six" class="accordion">{% t titles.user %}</label>
+                    <div class="tab-content">
+                        <p>{%tf user-guide.md%}</p>
+                    </div>
+                </div>
+           </div>
+           </div>
+        </div>
+    </div>
+</article>
+<a href="#" class="arrow-up"><i></i></a>
+</div>

@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="row start-xs">
-                        <p>Learn how to set up tunnels</p>
+                        <p>There's two types of tunnels, client and server. Client tunnels are used to connect to other services and server tunnels are used if you want to host your own services (so other people can connect to them). By default, Kovri has IRC (Irc2P) and email (i2pmail) client tunnels set up. You can add or remove tunnels of any kind in kovri.conf. If you want to host your own service, it's recommended to read steps 4 and 5 in the <a href="docs.html">User Guide</a>. If not, you can skip them.</p>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                         </div>
                     </div>
                     <div class="row start-xs">
-                        <p>Final instructions</p>
+                        <p>Here you are. You're almost done. Now the only thing left to do is to run <code>cd build/ && ./kovri</code> in your terminal. Once connected, it should take about 5 minutes to bootstrap into the network and start using services, so be patient. Remember to <a href="https://github.com/monero-project/kovri/issues">report any bugs</a> if you run into any trouble. See? That wasn't so hard, was it? Have fun!</p>
                     </div>
                 </div>
             </div>
