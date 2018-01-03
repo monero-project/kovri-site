@@ -1,0 +1,12 @@
+- title: Get Kovri
+  url: get-kovri.html
+- title: Download
+  url: https://github.com/monero-project/kovri#nightly-releases-bleeding-edge
+- title: Contribuisci
+  url: contributing.html
+- title: Docs
+  subfolderitems:
+  - page: Kovri Docs
+    url: docs.html
+  - page: Doxygen
+    url: doxygen.html
