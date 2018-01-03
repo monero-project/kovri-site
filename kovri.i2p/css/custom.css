@@ -112,6 +112,14 @@ h1, h2, h3, h4, h5, h6, p {margin: 0;}
 
 img {max-width: 100%;}
 
+video {
+    max-width: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .container, .container-fluid {
     margin-left: auto;
     margin-right: auto;
@@ -160,6 +168,7 @@ pre.highlight {
     padding: 0.7rem;
     border-radius: 0.2rem;
     text-indent: -6px;
+    word-break: break-all;
 }
 
 .arrow-down {
@@ -545,6 +554,14 @@ img.monero-logo {
 }
     .burger-check:checked + label {
     position: fixed;
+}
+
+.mob-language-change, .mob-language-change label {
+    cursor: pointer;
+}
+    
+.mob-language-change img.icon-language{
+    width: 1.5rem;
 }
 
 /*dropdown menu*/
@@ -1104,6 +1121,47 @@ p {
 
 
 /* DOCUMENTATION */
+
+.documentation .mobile {
+    display: none;
+}
+
+    .documentation a.arrow-up {
+    border: 1px solid #ff7519;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background-color: #ffffff;
+    z-index: 5;
+}
+
+.documentation a.arrow-up:hover, .downloads a.arrow-up:focus {
+    border: none; 
+    background-color: #ff7519;
+}
+
+.documentation a.arrow-up i {
+    border: solid #ff7519;
+    border-width: 0 3px 3px 0;
+    padding: 0.5rem;
+    position: absolute;
+    top: 1.02rem;
+    left: 0.88rem;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -webkit-transition: all ease-out .2s;
+    -moz-transition: all ease-out .2s;
+    -o-transition: all ease-out .2s;
+    transition: all ease-out .2s;
+}
+
+.documentation a.arrow-up:hover i, .downloads a.arrow-up:focus i {
+    border-color: #ffffff;
+}
+
 .tabPanel-widget {
   position: relative; 
 }
@@ -1245,6 +1303,84 @@ p {
 
 @media only screen and (max-width: 62rem) {
     
+    .documentation .desktop {
+        display: none;
+    }
+    
+    .documentation .mobile {
+        display: block;
+    }
 
+    /*************************accordion********************************/
+
+.tab {
+  position: relative;
+  width: 100%;
+  color: #4c4c4c;
+  overflow: hidden;
+  border-top: 1px solid #d7d7d7;
+}
+
+.tab:last-of-type {
+    border-bottom: 1px solid #d7d7d7;
+}
+input.accordion {
+  position: absolute;
+  display: none;
+  z-index: -1;
+}
+label.accordion {
+  position: relative;
+  display: block;
+  padding: 1rem 2rem 1rem 0;
+  font-weight: bold;
+  line-height: 1.7;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  border-radius: 3px;
+  -webkit-transition: max-height 0.3s;
+  -o-transition: max-height 0.3s;
+  transition: max-height 0.3s;
+}
+
+.tab-content p {
+  margin: 0 1rem 1rem 1rem;
+}
+
+input.accordion:checked ~ .tab-content {
+  max-height: 800rem;
+  overflow: visible;
+}
+
+label.accordion::after {
+  margin-right: 0;
+  content: "";
+  position: absolute;
+  display: block;
+  top: 50%;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 4px solid #4c4c4c;
+  border-bottom: 0 solid #4c4c4c;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  -webkit-transition: border-bottom .1s, border-top .1s .1s;
+  -o-transition: border-bottom .1s, border-top .1s .1s;
+  transition: border-bottom .1s, border-top .1s .1s;
+}
+
+input.accordion[type=checkbox]:checked + label::after {
+  transform: rotateX(180deg);
+}
+input.accordion[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}
+    
 
 }
