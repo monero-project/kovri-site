@@ -120,6 +120,11 @@ video {
     display: block;
 }
 
+a, button, input, input:checked, select, textarea, label, label:checked, label:focus, .mob-nav .nav-item, .mob-nav .nav-item:checked, .mob-language-change {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+
 .container, .container-fluid {
     margin-left: auto;
     margin-right: auto;
@@ -211,15 +216,15 @@ h2#main-h2 {
 
 h1 {
     font-size: 1.7rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 h2 { 
     font-family: 'Hind', 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 1.5625rem;
-    line-height: 1;
-    margin-bottom: 2.0rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -293,6 +298,10 @@ p {
     display: -ms-flexbox;
     display: -webkit-flex;
     padding-left: 0.5rem;
+}
+
+.right.one-third.maintile {
+    display: initial;
 }
 
 .center.one-third, .center-1.one-fourth, .center-2.one-fourth {
@@ -374,6 +383,7 @@ a.btn-link:hover, a.btn-link:active, a.btn-link:focus {
     
 .btn-fixed, .btn-auto {
     padding: 0.3rem 0.5rem;
+    margin: 0 0.5rem;
     font-size: 0.875rem;
 }     
 }
@@ -665,7 +675,6 @@ img.monero-logo {
         top: 0;
         min-height: 3.5rem;
         z-index: 5;
-    border-bottom: 1px solid #f4f6f9;
     }
     
 .site-wrap {
@@ -769,8 +778,8 @@ label[for="mobile-burger"] {
 img.monero-logo {
     position: inherit;
     width: 10rem;
-    padding-left: 0;
-    padding-top: 0.3rem;
+    padding: 0;
+    padding-top: 0.5rem;
 }
     
 .white-nav {
@@ -804,9 +813,9 @@ img.monero-logo {
       outline: 0;
       padding: 0;
       cursor: pointer;
-      border-bottom: 2px solid #393939;
+      border-bottom: 2px solid #4c4c4c;
       width: 1.5rem;
-      margin: 1.5rem;
+      margin: 1.5rem 1.2rem;
       align-self: flex-end;
 }
     
@@ -818,7 +827,7 @@ img.monero-logo {
 .burger:before {
   content: "";
   display: block;
-  border-bottom: 2px solid #393939;
+  border-bottom: 2px solid #4c4c4c;
   width: 100%;
   margin-bottom: 5px;
   transition: -webkit-transform 0.5s ease-in-out;
@@ -830,7 +839,7 @@ img.monero-logo {
 .burger:after {
   content: "";
   display: block;
-  border-bottom: 2px solid #393939;
+  border-bottom: 2px solid #4c4c4c;
   width: 100%;
   margin-bottom: 5px;
   transition: -webkit-transform 0.5s ease-in-out;
@@ -881,7 +890,7 @@ img.monero-logo {
     opacity: 1;
     visibility: visible;
     box-shadow: none;
-    top: 6%;
+    top: 3rem;
     left: 0;
     right: 0;
     text-align: center;
@@ -891,7 +900,8 @@ img.monero-logo {
 }
 label[for="moblangdrop"] {
     display: block;
-    padding: 1.5rem 1rem;
+    padding: 1rem;
+    margin-top: 0.5rem;
 }
     
     #moblangdrop:checked ~ label {
@@ -932,7 +942,7 @@ a.mob-lang-change {
 .white-nav .mob-language-change label .arrow-down {
     display: inline-block;
     margin-left: 0.2rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.6rem;
     border-top: 3px solid #393939;
 }
     
@@ -953,6 +963,10 @@ a.mob-lang-change {
 
 .info-block-main {
     padding: 4rem 3rem;
+}
+
+.blog-block {
+    padding-bottom: 1rem;
 }
 
 .main-bg {
@@ -994,9 +1008,8 @@ footer {
 .footer-wrap {
     word-wrap: break-word;
     word-break: break-all;
-    border: 1px solid #e8ebef;
-    padding: 2rem 2rem;
-    margin: 0 1rem 1.5rem 1rem;
+    padding: 2rem 0;
+    margin: 0 1rem 0 1rem;
     position: relative;
 }
 
@@ -1013,7 +1026,6 @@ footer {
 
 .footer-wrap p {
     margin-bottom: 1rem;
-    margin-top: 1rem;
 }
 
 footer a.white {
@@ -1031,11 +1043,7 @@ footer a.white:hover, a.white:focus {
 }
 
 .footer-container {
-    padding-top: 4rem;
-}
-
-.footer-container div:last-child {
-    padding-bottom: 2rem;
+    padding: 4rem 1rem;
 }
 
 .footer-links>ul>li {
@@ -1097,7 +1105,6 @@ h2 {
     font-size: 23px;
     font-size: 	1.4375rem;
     margin-bottom: 1.2rem;
-    margin-top: 2rem;
 }
 
 h3 {
@@ -1162,6 +1169,11 @@ p {
     border-color: #ffffff;
 }
 
+.documentation .tabPanel-content.info-block h2 {
+    margin-top: 1rem;
+    height: auto !important;
+}
+
 .tabPanel-widget {
   position: relative; 
 }
@@ -1213,34 +1225,74 @@ p {
   top: 4rem;
 }
 
+.tabPanel-widget label:nth-child(5),
+.tabPanel-widget h2:nth-child(7) {
+  left: 0;
+  top: 4rem;
+  height: 3.8rem;
+}
+
 .tabPanel-widget label:nth-child(9),
 .tabPanel-widget h2:nth-child(11) {
   left: 0;
   top: 8rem;
+  height: 3.8rem;
+}
+
+
+.tabPanel-widget.french label:nth-child(9),
+.tabPanel-widget.french h2:nth-child(11), .tabPanel-widget.italian label:nth-child(9),
+.tabPanel-widget.italian h2:nth-child(11) {
+  left: 0;
+  top: 9.8rem;
 }
 
 .tabPanel-widget label:nth-child(13),
 .tabPanel-widget h2:nth-child(15) {
   left: 0;
-  top: 12rem;
+  top: 13.8rem;
 }
 
 .tabPanel-widget label:nth-child(17),
 .tabPanel-widget h2:nth-child(19) {
   left: 0;
-  top: 16rem;
+  top: 17.8rem;
 }
 
 .tabPanel-widget label:nth-child(21),
 .tabPanel-widget h2:nth-child(23) {
   left: 0;
-  top: 20rem;
+  top: 21.8rem;
 }
 
 .tabPanel-widget label:nth-child(25),
 .tabPanel-widget h2:nth-child(27) {
   left: 0;
-  top: 24rem;
+  top: 25.8rem;
+}
+
+.tabPanel-widget.italian label:nth-child(13),
+.tabPanel-widget.italian h2:nth-child(15) {
+  left: 0;
+  top: 15.6rem;
+}
+
+.tabPanel-widget.italian label:nth-child(17),
+.tabPanel-widget.italian h2:nth-child(19) {
+  left: 0;
+  top: 19.6rem;
+}
+
+.tabPanel-widget.italian label:nth-child(21),
+.tabPanel-widget.italian h2:nth-child(23) {
+  left: 0;
+  top: 23.6rem;
+}
+
+.tabPanel-widget.italian label:nth-child(25),
+.tabPanel-widget.italian h2:nth-child(27) {
+  left: 0;
+  top: 27.6rem;
 }
 
 .tabPanel-widget input + h2 + div.tabPanel-content {
@@ -1251,7 +1303,7 @@ p {
   width: 1px; 
   overflow: hidden;
   padding: 4rem 4.5rem;
-  margin-left: 15.1875rem;
+  margin-left: 15.3rem;
   margin-top: -4rem;
 }
 
@@ -1280,7 +1332,7 @@ p {
     
 }
 
-.tabPanel-widget input[name="tabs"]:checked + h2:after {
+/*.tabPanel-widget input[name="tabs"]:checked + h2:after {
   content: '';
   margin: auto;
   position: absolute;
@@ -1293,15 +1345,23 @@ p {
   border-right: 10px solid #ff7519;
   border-top: 10px solid transparent;
   -ms-transform: rotate(-45deg); /* IE 9 */
-    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
-    transform: rotate(-45deg);
-}
+   /* -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    /*transform: rotate(-45deg);
+}*/ 
 
 .tabPanel-widget label h2 {
     position: fixed;
 }
 
+@media only screen and (max-width: 75rem) {
+    
+.tabPanel-widget input + h2 + div.tabPanel-content {
+  margin-left: 13.1875rem;
+}
+}
+
 @media only screen and (max-width: 62rem) {
+
     
     .documentation .desktop {
         display: none;
@@ -1349,7 +1409,7 @@ label.accordion {
 }
 
 .tab-content p {
-  margin: 0 1rem 1rem 1rem;
+  margin: 0;
 }
 
 input.accordion:checked ~ .tab-content {
