@@ -46,8 +46,8 @@ Watch development via the Kovri repo and join the community.</p>
                     <div class="col"><h2>Downloads</h2></div>
                 </div>
                 <div class="row center-xs">
-                    <p><a href="#" class="btn-fixed">Kovri Binaries</a></p>
-                    <p><a href="#" class="btn-fixed">Build from Source</a></p>
+                    <p><a href="https://github.com/monero-project/kovri#nightly-releases-bleeding-edge" class="btn-fixed">Kovri Binaries</a></p>
+                    <p><a href="docs.html" class="btn-fixed">Build from Source</a></p>
                 </div>
                </div>
             </div>
