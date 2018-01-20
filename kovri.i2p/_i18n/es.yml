@@ -1,5 +1,8 @@
 global:
   language: Español
+  lang-class: spanish
+  no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
+  site-source: Site source code
 langs:
   en: English
   es: Español

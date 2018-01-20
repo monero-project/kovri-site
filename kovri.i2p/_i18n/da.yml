@@ -1,5 +1,8 @@
 global:
-  language: English
+  language: Dansk
+  lang-class: danish
+  no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
+  site-source: Site source code
 langs:
   en: English
   es: Español
@@ -19,5 +22,6 @@ titles:
   faq: FAQ
   style: Stil Guide
   user: Bruger Guide
+  legal: Legal
   docs: Kovri Documentation
   blog: Kovri Blog Posts

@@ -1,5 +1,8 @@
 global:
   language: Deutsch
+  lang-class: german
+  no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
+  site-source: Site source code
 langs:
   en: English
   es: Español
@@ -19,5 +22,6 @@ titles:
   faq: FAQ
   style: Stilleitfaden
   user: Benutzerleitfaden
+  legal: Legal
   docs: Kovri Documentation
   blog: Kovri Blog Posts
