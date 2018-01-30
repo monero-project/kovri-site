@@ -9,7 +9,7 @@
                 <div class="info-block text-adapt">
                     <div class="row center-xs">
                         <div class="col">
-                            <h2>1. Support</h2>
+                            <h2>1. Contact & Support</h2>
                         </div>
                     </div>
                     <div class="row start-xs">
@@ -84,7 +84,7 @@
                         </div>
                     </div>
                     <div class="row start-xs">
-                        <p>There's two types of tunnels, client and server. Client tunnels are used to connect to other services and server tunnels are used if you want to host your own services (so other people can connect to them). By default, Kovri has IRC (Irc2P) and email (i2pmail) client tunnels set up. You can add or remove tunnels of any kind in kovri.conf. If you want to host your own service, it's recommended to read steps 4 and 5 in the <a href="docs.html">User Guide</a>. If not, you can skip them.</p>
+                        <p>There's two types of tunnels, client and server. Client tunnels are used to connect to other services and server tunnels are used if you want to host your own services. To learn how to add or remove tunnels, read the <a href="docs.html">User Guide</a> for details.</p>
                     </div>
                 </div>
             </div>
