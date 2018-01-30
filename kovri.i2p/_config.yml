@@ -15,4 +15,4 @@ paginate_path: blog/page:num/
 # jekyll-multiple-languages-plugin settings:
 languages: ["en", "es", "ru", "fr", "it", "de", "da"]
 
-exclude_from_localizations: ["img", "css", "fonts", "Kovri Website Instructions.md", "_posts"]
+exclude_from_localizations: ["img", "css", "fonts", "Kovri Website Instructions.md", "_posts", "doxygen", "doxygen.html"]
