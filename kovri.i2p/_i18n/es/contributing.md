@@ -15,7 +15,23 @@
                     </div>
 <div class="row">
 <div class="col" markdown="1">
-Kovri is always looking for new developers of all skill levels. Since the code is primarily written in C++, prior knowledge of, and experience with the language is definitely helpful, but we are willing to help teach an motivated individual with a willingness to learn and take direction. If you think you have what it takes or have questions of any kind, pop by the #kovri-dev IRC channel and ask around. We do have lives though, and don't idle by the computer 24/7, so be patient when awaiting a response. Hope to see you there.
+Kovri is a community project, and appreciates quality code contributions from volunteer developers. Visit our [contact and support](https://github.com/monero-project/kovri/#contact-and-support) section to get started with code development. The following requisites should be considered:
+- C++14 and higher
+- Boost 1.58 or higher
+- Network programming with Boost
+- Cryptography
+  - AES
+  - Diffie-Hellman
+  - ElGamal
+  - SHA family
+  - HMAC
+  - RSA
+  - Ed25519 (TweetNaCl)
+  - Experience with [Crypto++](https://cryptopp.com/)
+-  CMake + experience maintaining cross-platform compatibility ([all supported platforms](https://build.getmonero.org/waterfall))
+- Anonymity systems and familiar with the various mix-network literature
+- Familiar with specifications that cover both the common overlay networks (I2P/Tor) as well as emerging systems (such as Kaztenpost/Panoramix)
+- Added bonuses would be experience with Bash/Python and Docker (all are used in our current testnet)
 
 </div>
 </div>
@@ -37,9 +53,9 @@ Kovri is always looking for new developers of all skill levels. Since the code i
                     </div>
 <div class="row">
 <div class="col" markdown="1">
-Kovri is an initiative with lofty goals, and we realize some individuals with no interest in coding and development may still want to support Kovri's vision for a better future for privacy. We are open to individual of all fields who think they can contribute in a meaningful way. We encourage anyone interested to come by the #kovri IRC channel and share your ideas.
+We are open to individual of all fields who think they can contribute in a meaningful way. We encourage anyone interested to [contact and support](https://github.com/monero-project/kovri/#contact-and-support) section and share your ideas.
 
-If you feel led to give financially to the development of Kovri, you can give to The Monero Project general fund (Kovri is under the stewardship of the Core Team of the Monero Project). We provide the XMR address in our footer, and information on how to give in other ways can be found on the project's [contribution page](https://getmonero.org/get-started/contributing/).
+If you feel led to give financially to the development of Kovri, you can give to The Monero Project general fund (Kovri is under the stewardship of the Core Team of the Monero Project). Information on donating can be found on Monero's [contribution page](https://getmonero.org/get-started/contributing/).
 </div>
 </div>
             </div>
