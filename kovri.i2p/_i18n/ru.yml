@@ -1,13 +1,8 @@
 global:
   language: Русский
-  about: О нас!
-  twitter: Twitter
-  github: GitHub
-pages:
-  Home:
-  Get Started:
-  Contributing: 
-  FAQ:
+  lang-class: russian
+  no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
+  site-source: Site source code
 langs:
   en: English
   es: Español
@@ -18,6 +13,8 @@ langs:
   da: Dansk
 titles:
   index: What is Kovri?
+  get-started: Get Started
+  intro: Introduction
   acknowledgements: Acknowledgements
   quality: Quality Assurance
   contributing: General Contribution Guidelines
@@ -25,3 +22,6 @@ titles:
   faq: FAQ
   style: Style Guide
   user: User Guide
+  legal: Legal
+  docs: Kovri Documentation
+  blog: Kovri Blog Posts

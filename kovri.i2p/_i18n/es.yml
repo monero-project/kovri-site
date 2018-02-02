@@ -1,8 +1,8 @@
 global:
   language: Español
-  about: Acerca de
-  twitter: Twitter
-  github: GitHub
+  lang-class: spanish
+  no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
+  site-source: Site source code
 langs:
   en: English
   es: Español
@@ -11,13 +11,10 @@ langs:
   it: Italiano
   de: Deutsch
   da: Dansk
-pages:
-  Home: Inicio
-  Get Started: Comenzar
-  Contributing: Contribuciones
-  FAQ: FAQ
 titles:
   index: ¿Que es Kovri?
+  get-started: Get Started
+  intro: Introduction
   acknowledgements: Agradecimientos
   quality: Calidad
   contributing: Pautas Generales para contribuir
@@ -25,3 +22,7 @@ titles:
   faq: FAQ
   style: Guia de estilo
   user: Guia de usuario
+  legal: Legal
+  docs: Kovri Documentation
+  blog: Kovri Blog Posts
+

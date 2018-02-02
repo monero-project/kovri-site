@@ -1,8 +1,8 @@
 global:
-  language: English
-  about: About
-  twitter: Twitter
-  github: GitHub
+  language: Dansk
+  lang-class: danish
+  no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
+  site-source: Site source code
 langs:
   en: English
   es: Español
@@ -11,13 +11,10 @@ langs:
   it: Italiano
   de: Deutsch
   da: Dansk
-pages:
-  Home: Hjem
-  Get Started: Kom i gang
-  Contributing: Bidrag
-  FAQ: FAQ
 titles:
   index: Hvad er Kovri?
+  get-started: Get Started
+  intro: Introduction
   acknowledgements: Anderkendelser
   quality: Kvalitetssikring
   contributing: Generelle bidrags retningslinjer
@@ -25,3 +22,6 @@ titles:
   faq: FAQ
   style: Stil Guide
   user: Bruger Guide
+  legal: Legal
+  docs: Kovri Documentation
+  blog: Kovri Blog Posts
