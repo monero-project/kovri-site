@@ -97,7 +97,16 @@
                            <input class="burger-checkdropdown" id="drop1" type="checkbox">
                            <div class="dropdown-content">
                               {% for entry in item.subfolderitems %}
+                              
+                              {% if entry.page == "Doxygen" %}
+                              
+                              <a href="/doxygen">Doxygen</a>
+                              
+                              {%else%}
+                              
                               <a href="{{ entry.url }}">{{ entry.page }}</a>
+                              
+                              {%endif%}
                               {% endfor %}
                             </div>
                           {% else %}

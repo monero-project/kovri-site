@@ -9,4 +9,4 @@
   - page: End User
     url: docs.html
   - page: Doxygen
-    url: doxygen.html
+    url: doxygen/
