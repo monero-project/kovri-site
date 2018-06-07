@@ -3,9 +3,9 @@
 
 ## Conformidad
 - Nosotros apuntamos a usar las conformidades de C++11/14; siéntete libre de usar esto para mejorar tu trabajo
-- También es altamente recomendable usar las librerías y dependencias estándar cuando sea posible
+- También es altamente recomendable usar las librerías y dependencias estándares cuando sea posible
 
-## Enviando tú trabajo
+## Enviando tu trabajo
 Para contribuir tu trabajo, por favor procede con lo siguiente:
 
 1. Forkea Kovri
@@ -16,14 +16,14 @@ Para contribuir tu trabajo, por favor procede con lo siguiente:
    - Actualmente no tenemos ningún tag por estar en pre-alpha. Por ahora, puedes basar tu trabajo desde la rama master.
    - Los mensajes del Commit deben ser verbose por default, considerando una línea de asunto de (50 caracteres máximo), una línea en blanco y una explicación detallada como párrafo(s) separado(s) - a menos que el titulo se auto-explique.
    - El título de commit debe preponer class u otro aspecto del proyecto. Por ejemplo, "HTTPProxy: implementado depurador de User-Agent. Arregla #193." o "Garlic: arregla padding no inicializado en ElGamalBlock".
-   - Si un commit en particular referencia otro issue, por favor agrega una referencia. Por ejemplo, "Leer #123", o "Arregla #123". Esto ayudara a resolver tickets cuando se mezclen con ```master```.
-   - En general, los commits deben ser [atomicos](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) y los diffs deben ser fáciles de leer. Por esta razón, por favor intenta no mezclar arreglos de formato con commits de sin formato.
+   - Si un commit en particular referencia otro issue, por favor agrega una referencia. Por ejemplo, "Leer #123", o "Arregla #123". Esto ayudará a resolver tickets cuando se mezclen con ```master```.
+   - En general, los commits deben ser [atómicos](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) y los diffs deben ser fáciles de leer. Por esta razón, por favor intenta no mezclar arreglos de formato con commits de sin formato.
    - El cuerpo de los pull requests deben contener una descripción adecuada de lo que hace el parche, y proveer una justificación o razonamiento para el parche (cuando sea apropiado). Debes incluir referencias a cualquier discusión como tickets, chats, o IRC.
 
 ## Propuestas
 Para contribuir una propuesta, por favor lee nuestros [issues abiertos](https://github.com/monero-project/kovri/issues) para ver los ya existentes. Si lo que quieres proponer no está ahí, entonces [abre un nuevo issue](https://github.com/monero-project/kovri/issues/new).
 
-A pesa r de que nuestro C4 dicta, que nosotros mezclamos todo, pedimos abrir una propuesta por las siguientes razones:
+A pesar de que nuestro C4 dicta que nosotros mezclamos todo, pedimos abrir una propuesta por las siguientes razones:
 
 1. Una propuesta abre la comunicación
 2. Una propuesta muestra que el colaborador respeta la opinión de todos los colaboradores del proyecto
@@ -51,7 +51,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 ## Lenguaje
 
-Las palabras "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", y "OPTIONAL" en este documento, no deben ser interpretadas como esta descrito en el RFC 2119.
+Las palabras "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", y "OPTIONAL" en este documento, no deben ser interpretadas como está descrito en el RFC 2119.
 
 ## Metas
 
@@ -72,7 +72,7 @@ C4 está hecho para ser un modelo óptimo de colaboración para proyectos de sof
 - El proyecto DEBE utilizar la plataforma de Tracker de issues.
 - El proyecto DEBE tener directrices claramente documentadas para el estilo de código.
 - Un "Colaborador" es una persona que desea proporcionar un parche, siendo un conjunto de compromisos que resuelven algún problema claramente identificado.
-- Un "Mantenedor" es una persona que fusiona parches al proyecto. Los mantenedores no son desarrolladores; Su trabajo es hacer cumplir el proceso.
+- Un "Mantenedor" es una persona que fusiona parches al proyecto. Los mantenedores no son desarrolladores; su trabajo es hacer cumplir el proceso.
 - Los colaboradores NO tendrán acceso de commit al repositorio a menos que sean también Mantenedores.
 - Los mantenedores DEBEN tener acceso de commit al repositorio.
 - Todos, sin distinción ni discriminación, tendrán el mismo derecho de convertirse en un Colaborador en los términos de este contrato.

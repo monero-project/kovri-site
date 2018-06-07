@@ -8,7 +8,7 @@ $ cpplint src/path/to/my/file
 $ cd kovri/ && clang-format -i -style=file src/path/to/my/file
 ```
 
-## Aquí esta lo que no se acomoda por clang-format y difiera de lo propuesto por el estilo C++ de Google
+## Aquí está lo que no se acomoda por clang-format y difiera de lo propuesto por el estilo C++ de Google
 
 - Mantente con la base del código (verticalmente) para tener consistencia
 - Las funciones siempre comienzan con una nueva línea para tener consistencia en el código

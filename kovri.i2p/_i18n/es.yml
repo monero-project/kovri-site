@@ -16,19 +16,19 @@ langs:
   da: Dansk
 
 titles:
-  index: ¿Que es Kovri?
-  get-started: Get Started
-  intro: Introduction
+  index: ¿Qué es Kovri?
+  get-started: Tareas iniciales
+  intro: Introducción
   acknowledgements: Agradecimientos
-  quality: Calidad
-  contributing: Pautas Generales para contribuir
-  building: Compilando.
-  faq: FAQ
-  style: Guia de estilo
-  user: Guia de usuario
+  quality: Seguros de calidad
+  contributing: Guía para contribuir
+  building: Instrucciones para compilar
+  faq: Preguntas frecuentes
+  style: Guía de estilo
+  user: Guía de usuario
   legal: Legal
-  docs: Kovri Documentation
-  blog: Kovri Blog Posts
+  docs: Documentación Kovri 
+  blog: Entradas blog Kovri 
 
 home:
   main_para1: Kovri is a free, decentralized, anonymity technology developed by Monero.
