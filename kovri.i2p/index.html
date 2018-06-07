@@ -4,5 +4,69 @@ title: Kovri Home Page
 permalink: index
 ---
 
-
-{% tf index.md %}
+<section class="container full col-xs-12">
+    <div class="info-block info-block-main">
+        <div class="main-bg">
+            <div class="row middle-xs">
+                <div class="col-lg-9 col-md-9 col-xs-12">
+                    <div class="main-info">
+                        <h1 id="main-h1">{% t global.kovri %}</h1>
+                        <p id="main-text">{% t home.main_para1 %}</p>
+                        <p>{% t home.main_para2 %}</p>
+                        <p>{% t home.main_para3 %}</p>
+                        <p>{% t home.main_para4 %}</p>
+                        <p>{% t home.main_para5 %}</p>
+                        <p><a href="get-started.html" class="btn-link btn-auto btn-primary">{% t home.main_button %}</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="row">
+        <div class="left two-thirds col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <div class="info-block">
+                <div class="row center-xs">
+                    <div class="col">
+                        <h2>{% t home.whatiskovri %}</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <video controls poster="/img/kovri_video_poster.png" onclick="this.paused ? this.play() : this.pause();" preload="none">
+                                <source src="/img/kovri-video.mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>                
+        <div class="right one-third maintile col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="info-block col-xs-12">
+                    <div class="row center-xs">
+                        <div class="col">
+                            <h2>{% t home.downloads %}</h2>
+                        </div>
+                    </div>
+                    <div class="row center-xs">
+                        <p><a href="https://github.com/monero-project/kovri#nightly-releases-bleeding-edge" class="btn-fixed">{% t home.binaries %}</a></p>
+                        <p><a href="docs.html" class="btn-fixed">{% t home.buildsource %}</a></p>
+                    </div>
+               </div>
+            </div>
+            <div class="row">
+                <div class="info-block col-xs-12">
+                    <div class="row center-xs">
+                        <div class="col">
+                            <h2>{% t home.blog %}</h2>
+                        </div>
+                    </div>
+                    <div class="row center-xs">
+                        <p class="blog-block">{% t global.comingsoon %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
