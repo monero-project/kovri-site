@@ -3,6 +3,9 @@ global:
   lang-class: russian
   no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
   site-source: Site source code
+  kovri: Kovri
+  comingsoon: Coming soon
+
 langs:
   en: English
   es: Español
@@ -11,6 +14,7 @@ langs:
   it: Italiano
   de: Deutsch
   da: Dansk
+
 titles:
   index: What is Kovri?
   get-started: Get Started
@@ -25,3 +29,52 @@ titles:
   legal: Legal
   docs: Kovri Documentation
   blog: Kovri Blog Posts
+
+home:
+  main_para1: Kovri is a free, decentralized, anonymity technology developed by Monero.
+  main_para2: Currently based on I2P’s open specifications, Kovri uses both garlic encryption and garlic routing to create a private, protected overlay-network across the internet. This overlay-network provides users with the ability to effectively hide their geographical location and internet IP address.
+  main_para3: Essentially, Kovri covers an application’s internet traffic to make it anonymous within the network.
+  main_para4: A lightweight and security-focused router, Kovri is fully compatible with the I2P network. An alpha version of Kovri is in the works.
+  main_para5: Watch development via the Kovri repo and join the community.
+  main_button: Get Started
+  whatiskovri: What is Kovri?
+  downloads: Downloads
+  binaries: Kovri Binaries
+  buildsource: Build from Source
+  blog: Blog
+  
+get-started:
+  intro1: A quickstart guide for getting Kovri up and running. For further information on any topic, please see the
+  intro2: documentation.
+  support: 1. Contact & Support
+  support_para1: First off, if you run into trouble on any of these steps, it's useful to know where you can find help. Please go to our
+  support_para2: IRC channel for general Kovri inquiries and our
+  support_para3: channel for questions that are development related. Ask your question and be patient as you wait for an answer.
+  download: 2. Download Kovri
+  download_para1: Download one of the binaries
+  download_para2: or build from source (see the
+  download_para3: Building section
+  download_para4: in the documentation for details).
+  firewall: 3. Open NAT/Firewall
+  firewall_para1: Kovri should randomly generate a new port to use on startup, but if you want to choose your own, you can go to kovri.conf and set any port between 9111 and 30777. See the
+  firewall_para2: User Guide
+  firewall_para3: in the documentation for more details.
+  opsec: Stop! Let's talk about Operational Security (Opsec)
+  opsec_para: Kovri can help keep you anonymous to a point, but it can't defend against user error. For this reason, we recommend a few opsec-related housekeeping things.
+  opsec_list1: Make a designated user for running Kovri, and ONLY run Kovri using that user.
+  opsec_list2-1: We recommend using Linux, and a even then consider using a hardened kernel (such as
+  opsec_list2-2: grsec
+  opsec_list2-3: with RBAC)
+  opsec_list3-1: After installing the appropriate resources in your kovri data path, consider setting appropriate access control with
+  opsec_list3-2: ", or whatever your OS uses for ACL."
+  opsec_list3-3: "Note: see kovri.conf to find your data path for Linux/OSX/Windows"
+  opsec_list4: Never share your port number with anyone as it will effect your anonymity!
+  tunnels: 5. Set up Tunnels
+  tunnels_para1: There's two types of tunnels, client and server. Client tunnels are used to connect to other services and server tunnels are used if you want to host your own services. To learn how to add or remove tunnels, read the
+  tunnels_para2: User Guide
+  tunnels_para3: for details.
+  run: 6. Run Kovri
+  run_para1: Here you are. You're almost done. Now the only thing left to do is to run
+  run_para2: in your terminal. Once connected, it should take about 5 minutes to bootstrap into the network and start using services, so be patient. Remember to
+  run_para3: report any bugs
+  run_para4: if you run into any trouble. See? That wasn't so hard, was it? Have fun!

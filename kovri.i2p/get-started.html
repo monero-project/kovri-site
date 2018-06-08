@@ -4,5 +4,108 @@ title: titles.get-started
 permalink: get-started
 ---
 
-
-{% tf get-started.md %}
+<div class="text-center container description">
+    <p>{% t get-started.intro1 %} <a href="docs.html">{% t get-started.intro2 %}</a></p>
+</div>
+<div class="using">
+    <section class="container">
+        <div class="row">      
+            <!-- full block-->
+            <div class="full col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="info-block text-adapt">
+                    <div class="row center-xs">
+                        <div class="col">
+                            <h2>{% t get-started.support %}</h2>
+                        </div>
+                    </div>
+                    <div class="row start-xs">
+                        <p>{% t get-started.support_para1 %} <a href="irc://chat.freenode.net/#kovri">#kovri</a> {% t get-started.support_para2 %} <a href="irc://chat.freenode.net/#kovri-dev">#kovri-dev</a> {% t get-started.support_para3 %}</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end full block -->
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="left half no-pad-sm col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="info-block">
+                    <div class="row center-xs">
+                        <div class="col">
+                            <h2>{% t get-started.download %}</h2>
+                        </div>
+                    </div>
+                    <div class="row start-xs">
+                        <p><a href="https://github.com/monero-project/kovri#nightly-releases-bleeding-edge">{% t get-started.download_para1 %}</a> {% t get-started.download_para2 %} <a href="docs.html">{% t get-started.download_para3 %} </a> {% t get-started.download_para4 %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right half col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="info-block">
+                    <div class="row center-xs">
+                        <div class="col">
+                            <h2>{% t get-started.firewall %}</h2>
+                        </div>
+                    </div>
+                    <div class="row start-xs">
+                        <p>{% t get-started.firewall_para1 %} <a href="docs.html">{% t get-started.firewall_para2 %}</a> {% t get-started.firewall_para3 %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">   
+            <!-- full block-->
+            <div class="full col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="info-block text-adapt">
+                    <div class="row center-xs">
+                        <div class="col">
+                            <h2>{% t get-started.opsec %}</h2>
+                        </div>
+                    </div>
+                    <div class="row start-xs">
+                        <p>{% t get-started.opsec_para %}</p>
+                        <p>
+                            <ol>
+                                <li>{% t get-started.opsec_list1 %}</li>
+                                <li>{% t get-started.opsec_list2-1 %} <a href="https://en.wikibooks.org/wiki/Grsecurity">{% t get-started.opsec_list2-2 %}</a> {% t get-started.opsec_list2-3 %}</li>
+                                <li>{% t get-started.opsec_list3-1 %} <a href="https://linux.die.net/man/1/setfacl">setfacl</a>, <a href="https://en.wikipedia.org/wiki/Umask">umask</a>{% t get-started.opsec_list3-2 %}<br><em>{% t get-started.opsec_list3-3 %}</em></li>
+                                <li><strong>{% t get-started.opsec_list4 %}</strong></li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- end full block -->
+        </div>
+    </section>
+        <section class="container">
+        <div class="row">
+            <div class="left half no-pad-sm col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="info-block">
+                    <div class="row center-xs">
+                        <div class="col">
+                            <h2>5. Set up Tunnels</h2>
+                        </div>
+                    </div>
+                    <div class="row start-xs">
+                        <p>{% t get-started.tunnels_para1 %} <a href="docs.html">{% t get-started.tunnels_para2 %}</a> {% t get-started.tunnels_para3 %}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right half col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="info-block">
+                    <div class="row center-xs">
+                        <div class="col">
+                            <h2>{% t get-started.run %}</h2>
+                        </div>
+                    </div>
+                    <div class="row start-xs">
+                        <p>{% t get-started.run_para1 %} <code>cd build/ && ./kovri</code> {% t get-started.run_para2 %} <a href="https://github.com/monero-project/kovri/issues">{% t get-started.run_para3 %}</a> {% t get-started.run_para4 %}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
