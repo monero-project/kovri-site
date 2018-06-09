@@ -1,12 +1,12 @@
-- title: Get Started
+- title: Commencer
   url: get-started.html
-- title: Download
+- title: Téléchargements
   url: https://github.com/monero-project/kovri#nightly-releases-bleeding-edge
-- title: Contributing
+- title: Contribuer
   url: contributing.html
-- title: Docs
+- title: Documentation
   subfolderitems:
-  - page: End User
+  - page: Utilisateur Final
     url: docs.html
   - page: Doxygen
     url: doxygen/
