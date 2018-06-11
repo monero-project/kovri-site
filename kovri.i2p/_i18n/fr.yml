@@ -1,10 +1,10 @@
 global:
   language: Français
   lang-class: french
-  no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
-  site-source: Site source code
+  no-js: Sans JavaScript - Sans cookies - Sans trackers d'audience web - En Open Source
+  site-source: Code source du site
   kovri: Kovri
-  comingsoon: Coming soon
+  comingsoon: Prochainement
 
 langs:
   en: English
@@ -17,7 +17,7 @@ langs:
 
 titles:
   index: Qu'est-ce que Kovri?
-  get-started: Get Started
+  get-started: Commencer
   intro: Introduction
   acknowledgements: Reconnaissances
   quality: Qualité
@@ -26,55 +26,55 @@ titles:
   faq: FAQ
   style: Guide de Style
   user: Guide pour utilisateurs
-  legal: Legal
-  docs: Kovri Documentation
-  blog: Kovri Blog Posts
+  legal: Juridique
+  docs: Documentation Kovri
+  blog: Articles de Blog Kovri
 
 home:
-  main_para1: Kovri is a free, decentralized, anonymity technology developed by Monero.
-  main_para2: Currently based on I2P’s open specifications, Kovri uses both garlic encryption and garlic routing to create a private, protected overlay-network across the internet. This overlay-network provides users with the ability to effectively hide their geographical location and internet IP address.
-  main_para3: Essentially, Kovri covers an application’s internet traffic to make it anonymous within the network.
-  main_para4: A lightweight and security-focused router, Kovri is fully compatible with the I2P network. An alpha version of Kovri is in the works.
-  main_para5: Watch development via the Kovri repo and join the community.
-  main_button: Get Started
-  whatiskovri: What is Kovri?
-  downloads: Downloads
-  binaries: Kovri Binaries
-  buildsource: Build from Source
+  main_para1: Kovri est une technologie d'anonymisation gratuite et décentralisée développée par Monero.
+    main_para2: Actuellement fondé sur les spécifications ouvertes d'I2P, Kovri utilise à la fois le chiffrement en ail et le routage en ail pour créer une surcouche réseau privée et sécurisée à travers internet. Cette surcouche réseau permet aux utilisateurs de camoufler leur localisation géographique et leur adresse IP publique.
+  main_para3: En substance, Kovri protège le trafic internet d'une application pour le rendre anonyme au sein du réseau.
+  main_para4: Un routeur léger et axé sur la sécurité, Kovri est pleinement compatible avec le réseau I2P. Une version alpha de Kovri est en préparation.
+  main_para5: Suivez le développement via le dépôt Kovri et rejoignez la communauté.
+  main_button: Commencer
+  whatiskovri: Qu'est-ce que Kovri ?
+  downloads: Téléchargements
+  binaries: Binaires Kovri
+  buildsource: Compiler depuis les sources
   blog: Blog
-  
+
 get-started:
-  intro1: A quickstart guide for getting Kovri up and running. For further information on any topic, please see the
+  intro1: Voici un guide de démarrage rapide pour faire fonctionner Kovri. Pour plus d'informations sur tout sujet, consultez-la
   intro2: documentation.
-  support: 1. Contact & Support
-  support_para1: First off, if you run into trouble on any of these steps, it's useful to know where you can find help. Please go to our
-  support_para2: IRC channel for general Kovri inquiries and our
-  support_para3: channel for questions that are development related. Ask your question and be patient as you wait for an answer.
-  download: 2. Download Kovri
-  download_para1: Download one of the binaries
-  download_para2: or build from source (see the
-  download_para3: Building section
-  download_para4: in the documentation for details).
-  firewall: 3. Open NAT/Firewall
-  firewall_para1: Kovri should randomly generate a new port to use on startup, but if you want to choose your own, you can go to kovri.conf and set any port between 9111 and 30777. See the
-  firewall_para2: User Guide
-  firewall_para3: in the documentation for more details.
-  opsec: Stop! Let's talk about Operational Security (Opsec)
-  opsec_para: Kovri can help keep you anonymous to a point, but it can't defend against user error. For this reason, we recommend a few opsec-related housekeeping things.
-  opsec_list1: Make a designated user for running Kovri, and ONLY run Kovri using that user.
-  opsec_list2-1: We recommend using Linux, and a even then consider using a hardened kernel (such as
+  support: 1. Contact & Assistance
+  support_para1: Avant tout, si vous rencontrez des problèmes avec l'une de ces étapes, il est utile de savoir où trouver de l'aide. Rendez-vous sur notre canal IRC
+  support_para2: pour des questions d'ordre général sur Kovri et notre canal
+  support_para3: pour des questions relatives au développement. Posez vos questions et faites preuve de patience en attendant leurs réponses.
+  download: 2. Télécharger Kovri
+  download_para1: Téléchargez l'un des binaires
+  download_para2: ou compilez depuis le code source (voir la
+  download_para3: section Compilation
+  download_para4: de la documentation pour plus de précisions).
+  firewall: 3. configurer NAT et/ou Firewall
+  firewall_para1: Kovri devrait générer aléatoirement un nouveau port à utiliser au démarrage, mais si vous voulez choisir le vôtre, vous pouvez éditer kovri.conf et configurer un port entre 9111 et 30777. Consultez-le
+  firewall_para2: Guide Utilisateur
+  firewall_para3: dans la documentation pour plus de détails.
+  opsec: Stop ! Parlons Sécurité Opérationnelle (Opsec)
+  opsec_para: Kovri peut aider votre anonymat jusqu'à un certain point, mais il ne peut pas vous prémunir des erreurs d'utilisation. En ce sens, nous vous proposons quelques bonnes pratiques orientées Opsec.
+  opsec_list1: Créez et dédiez un utilisateur à l'exécution de Kovri, et exécutez Kovri UNIQUEMENT avec cet utilisateur.
+  opsec_list2-1: Nous vous recommandons d'utiliser Linux, et qui plus est de considérer l'utilisation d'un kernel durci (comme
   opsec_list2-2: grsec
-  opsec_list2-3: with RBAC)
-  opsec_list3-1: After installing the appropriate resources in your kovri data path, consider setting appropriate access control with
-  opsec_list3-2: ", or whatever your OS uses for ACL."
-  opsec_list3-3: "Note: see kovri.conf to find your data path for Linux/OSX/Windows"
-  opsec_list4: Never share your port number with anyone as it will effect your anonymity!
-  tunnels: 5. Set up Tunnels
-  tunnels_para1: There's two types of tunnels, client and server. Client tunnels are used to connect to other services and server tunnels are used if you want to host your own services. To learn how to add or remove tunnels, read the
-  tunnels_para2: User Guide
-  tunnels_para3: for details.
-  run: 6. Run Kovri
-  run_para1: Here you are. You're almost done. Now the only thing left to do is to run
-  run_para2: in your terminal. Once connected, it should take about 5 minutes to bootstrap into the network and start using services, so be patient. Remember to
-  run_para3: report any bugs
-  run_para4: if you run into any trouble. See? That wasn't so hard, was it? Have fun!
+  opsec_list2-3: avec RBAC)
+  opsec_list3-1: Après l'installation des ressources nécessaires dans votre répertoire Kovri, envisagez la mise en place de contrôles d'accès appropriés avec
+  opsec_list3-2: ", ou tout autre solution d'ACL de votre OS."
+  opsec_list3-3: "Remarque : consultez kovri.conf pour trouver votre répertoire sur Linux/OSX/Windows"
+  opsec_list4: Ne partagez jamais votre numéro de port avec quiconque dans la mesure où cela impacterait votre anonymat !
+  tunnels: 5. Mettez en places des tunnels
+  tunnels_para1: Il y a deux types de tunnels, clients et serveurs. Les tunnels clients sont utilisés pour la connexion à d'autres services et les tunnels serveurs sont utilisés si vous souhaitez héberger vos propres services. Pour apprendre à ajouter ou supprimer des tunnels, consultez-le
+  tunnels_para2: Guide Utilisateur
+  tunnels_para3: pour plus d'informations.
+  run: 6. Lancer Kovri
+  run_para1: Nous y voilà. Vous avez presque terminé. Maintenant la seule chose restant à faire est de lancer
+  run_para2: dans votre terminal. Une fois connecté, cela devrait prendre environ 5 minutes pour s'amorcer dans le réseau et commencer à utiliser des services, alors soyez patient. Souvenez-vous de
+  run_para3: remonter toutes les anomalies
+  run_para4: si vous rencontrez quelque problème que ce soit. Vous voyez ? Ce n'était pas si dur, n'est-ce pas ? Amusez-vous bien !
