@@ -32,7 +32,7 @@ titles:
 
 home:
   main_para1: Kovri est une technologie d'anonymisation gratuite et décentralisée développée par Monero.
-    main_para2: Actuellement fondé sur les spécifications ouvertes d'I2P, Kovri utilise à la fois le chiffrement en ail et le routage en ail pour créer une surcouche réseau privée et sécurisée à travers internet. Cette surcouche réseau permet aux utilisateurs de camoufler leur localisation géographique et leur adresse IP publique.
+  main_para2: Actuellement fondé sur les spécifications ouvertes d'I2P, Kovri utilise à la fois le chiffrement en ail et le routage en ail pour créer une surcouche réseau privée et sécurisée à travers internet. Cette surcouche réseau permet aux utilisateurs de camoufler leur localisation géographique et leur adresse IP publique.
   main_para3: En substance, Kovri protège le trafic internet d'une application pour le rendre anonyme au sein du réseau.
   main_para4: Un routeur léger et axé sur la sécurité, Kovri est pleinement compatible avec le réseau I2P. Une version alpha de Kovri est en préparation.
   main_para5: Suivez le développement via le dépôt Kovri et rejoignez la communauté.
