@@ -4,9 +4,12 @@ baseurl: ""
 permalink: /:title/
 exclude: [".gitignore", "README.md"]
 # Plugins
-plugins: 
+plugins_dir: 
   - jekyll-multiple-languages-plugin
   - jekyll-paginate
+
+# Gems
+gems: [jekyll-paginate, jekyll-multiple-languages-plugin]
 
 # paginate
 paginate: 10
