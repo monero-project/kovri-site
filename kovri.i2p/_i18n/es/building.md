@@ -1,4 +1,4 @@
-## Paso 1. Requerimientos minimos
+## Paso 1. Requerimientos mínimos
 
 #### Note: Debido al issue [#403](https://github.com/monero-project/kovri/issues/403), se sugiere un minimo de 1GB de RAM para el entorno de desarrollo.
 
@@ -58,7 +58,7 @@ $ sudo apt-get install libminiupnpc-dev #Para usuarios bajo una NAT restrictiva
 
 ### Debian (stable)
 
-Necesitamos copiar ```testing``` desde ```Boost 1.58+``` por culpa de un [CMake roto](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=826656). Para fines de documentacion, vamos a copiar todas las dependencias desde ```testing```. Si no estas familiriarizado con apt-pinning, procede con lo siguiente ants de instalar las dependencias:
+Necesitamos copiar ```testing``` desde ```Boost 1.58+``` por culpa de un [CMake roto](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=826656). Para fines de documentación, vamos a copiar todas las dependencias desde ```testing```. Si no estás familiarizado con apt-pinning, procede con lo siguiente antes de instalar las dependencias:
 
 - Crea y edita ```/etc/apt/preferences.d/custom.pref```
 - Escribe y guarda lo siguiente:
@@ -75,11 +75,11 @@ Pin-Priority: 650
 - Crea y edita ```/etc/apt/sources.list.d/custom.list```
 ```
 # Stable
-deb [Aqui va tu mirrior] stable main non-free contrib
+deb [Aquí va tu mirror] stable main non-free contrib
 # Testing
-deb [Aqui va tu mirrior] testing main non-free contrib
+deb [Aquí va tu mirror] testing main non-free contrib
 ```
-- Reemplaza ```[Aqui va tu mirrior]``` con tu mirror (ve el archivo ```/etc/apt/sources.list```)
+- Reemplaza ```[Aquí va tu mirror]``` con tu mirror (ve el archivo ```/etc/apt/sources.list```)
 - Corre ```$ sudo apt-get update```
 - Instala las dependencias con la bandera:  ```-t testing```:
 
@@ -136,7 +136,7 @@ $ sudo pkg install miniupnpc #Para usuarios bajo una NAT restrictiva
 
 ### Windows (MSYS2/MinGW-64)
 * Descargar el [instalador de MSYS2](http://msys2.github.io/), 64-bit o 32-bit de ser necesario, y ejecutarlo.
-* Usa el acceso directo asociado con tu arquitectura para iniciar el entorno MSYS2. En sistemas 64-bit seria MinGW-w64 Win64 Shell. Nota que si estas coriendo Windows 64-bits, necesitaras ambos entornos 64 y 32 bits.
+* Usa el acceso directo asociado con tu arquitectura para iniciar el entorno MSYS2. En sistemas 64-bit seria MinGW-w64 Win64 Shell. Nota que si estás corriendo Windows 64-bit, necesitaras ambos entornos 64 y 32 bit.
 * Actualiza el paquete en tu MSYS2:
 ```
 pacman -Sy
@@ -158,31 +158,31 @@ $ git clone --recursive https://github.com/monero-project/kovri
 ```bash
 $ make # para acortar el tiempo de compilado, corre make -j [CPU cores disponibles]
 ```
-### 3. Instala los recursos (archivos de configuracion + recursos de paquetes)
+### 3. Instala los recursos (archivos de configuración + recursos de paquetes)
 ```bash
 $ make install
 ```
 
 - Usuarios finales **DEBEN** correr ```make install``` para las nuevas instalaciones
-- Desarrolladores **DEBERIAN** correr ```make install``` despues de cada fetch
+- Desarrolladores **DEBERÍAN** correr ```make install``` despues de cada fetch
 
 ### Otras opciones que pueden usar en el paso 2:
 
 - ```make upnp``` produce un binario vanilla con soporte UPnP (requiere [MiniUPnP](https://github.com/miniupnp/miniupnp/releases))
 - ```make optimized-hardening``` produce un binario UPnP, optimizado y fortalecido
-- ```make all-options``` produce un binario UnPN activado, y optimizado y fortalecido
+- ```make all-options``` produce un binario UPnP activado, y optimizado y fortalecido
 - ```make tests``` produce todos los benchmarks y unit-tests
 - ```make tests-optimized-hardening``` produce todos los benchmarks y unit-tests con fortalecimiento optimizado
-- ```make static``` produce un binario estatico
+- ```make static``` produce un binario estático
 
 ### Otras opciones disponibles
-- ```make doxygen``` produce la documentacion de Doxygen
-- ```make clean``` limpia el directorio de compilacion y salida de Doxygen
+- ```make doxygen``` produce la documentación de Doxygen
+- ```make clean``` limpia el directorio de compilación y salida de Doxygen
 - ```make help``` muestra las opciones de compilado de CMake
 
 #### Notas
-- la salida de Doxygen sera en el directorio ```doc```
-- todas las demas salidas seran en el directorio ```build```
+- la salida de Doxygen será en el directorio ```doc```
+- todas las demás salidas serán en el directorio ```build```
 
 ### Clang
 Para compilar con clang, **debes** exportar lo siguiente:
@@ -190,14 +190,14 @@ Para compilar con clang, **debes** exportar lo siguiente:
 ```bash
 $ export CC=clang CXX=clang++ 
 ```
-- reemplazar ```clang``` con una version de tu eleccion
+- reemplazar ```clang``` con una versión de tu elección
 
 ### FreeBSD
 ```bash
 $ export CC=clang36 CXX=clang++36
 $ gmake && gmake install
 ```
-- reemplazar ```make``` con ```gmake``` para todas las otras opciones de compilacion
+- reemplazar ```make``` con ```gmake``` para todas las otras opciones de compilación
 
 ### (Opcional) directorio de datos personalizado
 Puedes personalizar el directorio de datos de Kovri como gustes. Simplemente exporta ```KOVRI_DATA_PATH```;:
@@ -207,11 +207,11 @@ $ export KOVRI_DATA_PATH=$HOME/.another-kovri-data-path && make && make install
 ```
 
 ## Paso 4. Proceder con la guia de usuario
-Lee la [guia de usuario](https://github.com/monero-project/kovri-docs/blob/master/i18n/es/user_guide.md) para comenzar
+Lee la [guía de usuario](https://github.com/monero-project/kovri-docs/blob/master/i18n/es/user_guide.md) para comenzar
 
 ## Docker
 
-Alternativamente, si usas Docker, lo siguiente compilara la imagen por ti.
+Alternativamente, si usas Docker, lo siguiente compilará la imagen por ti.
 
 ```bash
 $ docker build -t geti2p/kovri .
