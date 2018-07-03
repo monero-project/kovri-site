@@ -78,3 +78,26 @@ get-started:
   run_para2: in your terminal. Once connected, it should take about 5 minutes to bootstrap into the network and start using services, so be patient. Remember to
   run_para3: report any bugs
   run_para4: if you run into any trouble. See? That wasn't so hard, was it? Have fun!
+  
+contributing:
+  title: Contributing to Kovri
+  code: Code Development
+  code_para1: Kovri is a community project, and appreciates quality code contributions from volunteer developers. Visit our
+  code_para2: contact and support
+  code_para3: "section to get started with code development. The following requisites should be considered:"
+  code_list1: C++14 and higher
+  code_list2: Boost 1.58 or higher
+  code_list3: Network programming with Boost
+  code_list4: Cryptography
+  code_list5: Experience with
+  code_list6a: CMake + experience maintaining cross-platform compatibility
+  code_list6b: all supported platforms 
+  code_list7: Anonymity systems and familiar with the various mix-network literature
+  code_list8: Familiar with specifications that cover both the common overlay networks (I2P/Tor) as well as emerging systems (such as Kaztenpost/Panoramix)
+  code_list9: Added bonuses would be experience with Bash/Python and Docker (all are used in our current testnet)
+  vision: Supporting the Vision
+  vision_para1: We are open to individual of all fields who think they can contribute in a meaningful way. We encourage anyone interested to
+  vision_para2: contact and support
+  vision_para3: section and share your ideas.
+  vision_para4: If you feel led to give financially to the development of Kovri, you can give to The Monero Project general fund (Kovri is under the stewardship of the Core Team of the Monero Project). Information on donating can be found on Monero's
+  vision_para5: contribution page.
