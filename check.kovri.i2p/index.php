@@ -33,6 +33,9 @@
     #content .box h2 {
       text-align: center;
     }
+    #content .box h3 {
+      text-align: center;
+    }
     #content .box-code {
       background-color: #151515;
       color: #fff;
@@ -49,16 +52,51 @@
        <div id="content">
            <img src="img/kovri_on.png" alt="Kovri Logo Connected" class="logo">
            <h1>Success! Welcome to the I2P network!</h1>
+           <!-- TODO(unassigned): fix CSS styling -->
+           <?php
+             // Get client headers
+             $headers = getallheaders();
+
+             // Report unique header with custom tag
+             function header_box($tag, $header)
+             {
+               echo '<div class="box"><h3>';
+               echo $tag;
+               echo '</h3><div class="box-code"><code>';
+               echo "$header<br>";
+               echo '</code></div></div>';
+             }
+           ?>
            <div class="box">
-             <h2>Your browser's headers:</h2>
+           <h2>Your public destination [identity = keys [pub + signing] + cert]</h2>
+           </div>
+           <?php
+             foreach ($headers as $header => $value)
+               {
+                 switch ($header)
+                   {
+                     case "X-I2P-DestHash":
+                     header_box("Base64 encoded SHA-256 hash (32-bytes) of your destination", $value);
+                     break;
+                     case "X-I2P-DestB32":
+                     header_box("Base32 encoded SHA-256 hash (32-bytes) of your destination (with appended domain)", $value);
+                     break;
+                     case "X-I2P-DestB64":
+                     header_box("Base64 encoding of your full destination", $value);
+                     break;
+                   }
+               }
+           ?>
+           <div class="box">
+             <h2>All browser headers</h2>
              <div class="box-code">
                <code>
-                  <?php
-                    $headers = getallheaders();
-                    foreach ($headers as $header => $value) {
-                      echo "$header: $value <br>\n";
-                    }
-                  ?>
+                 <?php
+                 foreach ($headers as $header => $value)
+                   {
+                     echo "$header: $value <br>\n";
+                   }
+                 ?>
                </code>
              </div>
            </div>
