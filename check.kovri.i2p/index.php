@@ -27,6 +27,21 @@
       display: block;
       margin: 0 auto;
     }
+    #content .box {
+      margin-top: 2.5rem;
+    }
+    #content .box h2 {
+      text-align: center;
+    }
+    #content .box-code {
+      background-color: #151515;
+      color: #fff;
+      width: 100%;
+      border-radius: 2px;
+      padding: 1rem;
+      width: 70%;
+      margin: 0 auto;
+    }
   </style>
 </head>
 <body>
@@ -34,6 +49,19 @@
        <div id="content">
            <img src="img/kovri_on.png" alt="Kovri Logo Connected" class="logo">
            <h1>Success! Welcome to the I2P network!</h1>
+           <div class="box">
+             <h2>Your browser's headers:</h2>
+             <div class="box-code">
+               <code>
+                  <?php
+                    $headers = getallheaders();
+                    foreach ($headers as $header => $value) {
+                      echo "$header: $value <br>\n";
+                    }
+                  ?>
+               </code>
+             </div>
+           </div>
        </div>
     </div>
 </body>
