@@ -67,8 +67,8 @@ get-started:
   opsec_list2-3: with RBAC)
   opsec_list3-1: After installing the appropriate resources in your kovri data path, consider setting appropriate access control with
   opsec_list3-2: ", or whatever your OS uses for ACL."
-  opsec_list3-3: "Note: see kovri.conf to find your data path for Linux/OSX/Windows"
-  opsec_list4: Never share your port number with anyone as it will effect your anonymity!
+  opsec_list3-3: "Note: see kovri.conf to find your data path for Linux/macOS/Windows"
+  opsec_list4: Never share your port number with anyone as it will affect your anonymity!
   tunnels: 5. Set up Tunnels
   tunnels_para1: There's two types of tunnels, client and server. Client tunnels are used to connect to other services and server tunnels are used if you want to host your own services. To learn how to add or remove tunnels, read the
   tunnels_para2: User Guide
