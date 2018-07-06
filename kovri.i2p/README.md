@@ -93,7 +93,7 @@ permalink: /FAQ
 ```
 
 This is the front matter for faq.html. Let's break this down.
-* layout: Every page needs a layout. For most purposes 'default' will work fine. It's just a single full-width info block like can be seen on the [Kovri home page](https://getkovri.org). Please check out section '3. Choosing a Layout' for more info.
+* layout: Every page needs a layout. For most purposes 'default' will work fine. It's just a single full-width info block like can be seen on the [Kovri homepage](https://getkovri.org). Please check out section '3. Choosing a Layout' for more info.
 * title: This is the title of your page. You're not actually going to put a title here, but something that will point to your title in the multi-translation mix. You're going to put the word 'titles', followed by a period, followed by a unique word that describes your page. In the example above, that looks like *titles.faq*. For our example of *kovri-example.html* we can make it *titles.example*. When all else fails, the name of the page works just fine.
 * permalink: This is how your page will be accessed. For example, you can access the Kovri FAQ page by typing [https://getkovri.org/faq](https://getkovri.org/faq). The */faq* at the end is the permalink. Choose a unique word for your page and put a '/' in front of it. For our example, we can choose something like */kovri-example*.
 

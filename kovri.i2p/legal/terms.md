@@ -34,7 +34,7 @@ The Kovri I2P Router Project takes many precautions to ensure the files availabl
 
 #### Sponsors and Advertisers are Not Endorsed
 
-Though we seek to partner with quality companies, we are not responsible for the claims or representations made by sponsors and advertisers. The Kovri I2P Router Project does not review, endorse or recommend the products or services of any company mentioned on our site. We will not be liable in any way for damages of any kind resulting out of the misuse of any personal information or data submitted by you to an sponsor or advertiser.
+Though we seek to partner with quality companies, we are not responsible for the claims or representations made by sponsors and advertisers. The Kovri I2P Router Project does not review, endorse or recommend the products or services of any company mentioned on our site. We will not be liable in any way for damages of any kind resulting out of the misuse of any personal information or data submitted by you to a sponsor or advertiser.
 
 #### Offsite Links
 
