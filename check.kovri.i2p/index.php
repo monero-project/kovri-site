@@ -15,20 +15,19 @@
       background-color: #f4f6f9;
     }
     #page {
-      display: flex;
-      height: 100%;
-      justify-content: center;
-      align-items: center;
+      display: block;
+      padding: 3rem 1rem;
     }
     h1 { font-size: 2.5rem; text-align: center;}
     img.logo {
       max-width: 100%;
-      width: 20rem;
+      width: 7rem;
       display: block;
       margin: 0 auto;
     }
     #content .box {
       margin-top: 2.5rem;
+      word-break: break-all;
     }
     #content .box h2 {
       text-align: center;
