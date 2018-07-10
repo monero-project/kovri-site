@@ -8,7 +8,9 @@
   url: faq.html
 - title: Docs
   subfolderitems:
-  - page: End User
-    url: docs.html
+  - page: User Guide
+    url: user-guide.html
+  - page: Developer Guide
+    url: developer-guide.html
   - page: Doxygen
-    url: doxygen.html
+    url: doxygen/

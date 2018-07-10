@@ -29,6 +29,7 @@ titles:
   legal: Legal
   docs: Kovri Documentation
   blog: Kovri Blog Posts
+  dev: Developer Guide
 
 home:
   main_para1: Kovri is a free, decentralized, anonymity technology developed by Monero.
