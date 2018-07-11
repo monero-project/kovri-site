@@ -4,6 +4,8 @@
   url: https://github.com/monero-project/kovri#nightly-releases-bleeding-edge
 - title: Allgemein
   url: contributing.html
+- title: FAQ
+  url: faq.html
 - title: Docs
   subfolderitems:
   - page: End User
