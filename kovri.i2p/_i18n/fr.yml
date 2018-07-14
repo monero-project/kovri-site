@@ -29,6 +29,8 @@ titles:
   legal: Juridique
   docs: Documentation Kovri
   blog: Articles de Blog Kovri
+  dev: Developer Guide
+
 
 home:
   main_para1: Kovri est une technologie d'anonymisation gratuite et décentralisée développée par Monero.

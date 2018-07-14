@@ -6,9 +6,11 @@
   url: contributing.html
 - title: FAQ
   url: faq.html
-- title: Documentation
+- title: Docs
   subfolderitems:
-  - page: Utilisateur Final
-    url: docs.html
+  - page: User Guide
+    url: user-guide.html
+  - page: Developer Guide
+    url: developer-guide.html
   - page: Doxygen
     url: doxygen/
