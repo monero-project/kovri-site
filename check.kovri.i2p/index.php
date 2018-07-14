@@ -56,6 +56,9 @@
              // Get client headers
              $headers = getallheaders();
 
+	     // To remove X-I2P headers (they aren't sent by the browser, see #94)
+	     $parsed_headers = array();
+
              // Report unique header with custom tag
              function header_box($tag, $header)
              {
@@ -83,17 +86,19 @@
                      case "X-I2P-DestB64":
                      header_box("Base64 encoding of your full destination", $value);
                      break;
+                     default:
+                       $parsed_headers[$header] = $value;
                    }
                }
            ?>
            <div class="box">
-             <h2>All browser headers</h2>
+             <h2>Your browser headers</h2>
              <div class="box-code">
                <code>
                  <?php
-                 foreach ($headers as $header => $value)
+                 foreach ($parsed_headers as $header => $value)
                    {
-                     echo "$header: $value <br>\n";
+                     echo "$header: $value<br>";
                    }
                  ?>
                </code>
