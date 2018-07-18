@@ -45,8 +45,7 @@ home:
   blog: Blog
   
 get-started:
-  intro1: A quickstart guide for getting Kovri up and running. For further information on any topic, please see the
-  intro2: documentation.
+  intro1: A quickstart guide for getting Kovri up and running.
   support: 1. Contact & Support
   support_para1: First off, if you run into trouble on any of these steps, it's useful to know where you can find help. Please go to our
   support_para2: IRC channel for general Kovri inquiries and our
