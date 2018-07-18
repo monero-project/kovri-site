@@ -46,8 +46,7 @@ home:
   blog: Blog
 
 get-started:
-  intro1: Voici un guide de démarrage rapide pour faire fonctionner Kovri. Pour plus d'informations sur tout sujet, consultez-la
-  intro2: documentation.
+  intro1: Voici un guide de démarrage rapide pour faire fonctionner Kovri.
   support: 1. Contact & Assistance
   support_para1: Avant tout, si vous rencontrez des problèmes avec l'une de ces étapes, il est utile de savoir où trouver de l'aide. Rendez-vous sur notre canal IRC
   support_para2: pour des questions d'ordre général sur Kovri et notre canal
