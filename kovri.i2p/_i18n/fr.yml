@@ -25,11 +25,11 @@ titles:
   building: Instructions de compilation
   faq: FAQ
   style: Guide de Style
-  user: Guide pour utilisateurs
+  user: Guide utilisateur
   legal: Juridique
   docs: Documentation Kovri
   blog: Articles de Blog Kovri
-  dev: Developer Guide
+  dev: Guide du développeur
 
 
 home:
@@ -82,24 +82,24 @@ get-started:
   run_para4: si vous rencontrez quelque problème que ce soit. Vous voyez ? Ce n'était pas si dur, n'est-ce pas ? Amusez-vous bien !
 
 contributing:
-  title: Contributing to Kovri
-  code: Code Development
-  code_para1: Kovri is a community project, and appreciates quality code contributions from volunteer developers. Visit our
-  code_para2: contact and support
-  code_para3: "section to get started with code development. The following requisites should be considered:"
-  code_list1: C++14 and higher
-  code_list2: Boost 1.58 or higher
-  code_list3: Network programming with Boost
-  code_list4: Cryptography
-  code_list5: Experience with
-  code_list6a: CMake + experience maintaining cross-platform compatibility
-  code_list6b: all supported platforms 
-  code_list7: Anonymity systems and familiar with the various mix-network literature
-  code_list8: Familiar with specifications that cover both the common overlay networks (I2P/Tor) as well as emerging systems (such as Kaztenpost/Panoramix)
-  code_list9: Added bonuses would be experience with Bash/Python and Docker (all are used in our current testnet)
-  vision: Supporting the Vision
-  vision_para1: We are open to individual of all fields who think they can contribute in a meaningful way. We encourage anyone interested to
-  vision_para2: contact and support
-  vision_para3: section and share your ideas.
-  vision_para4: If you feel led to give financially to the development of Kovri, you can give to The Monero Project general fund (Kovri is under the stewardship of the Core Team of the Monero Project). Information on donating can be found on Monero's
-  vision_para5: contribution page.
+  title: Contribuer à Kovri
+  code: Développement de Code
+  code_para1: Kovri est un projet communautaire et apprécie les contributions d'un code de qualité de la part des développeurs volontaires. Visitez notre rubrique
+  code_para2: contact et support
+  code_para3: "pour démarrer avec le développement de code. Les exigences suivantes doivent être considérées :"
+  code_list1: C++14 et supérieur
+  code_list2: Boost 1.58 ou supérieur
+  code_list3: Programmation réseau avec Boost
+  code_list4: Cryptographie
+  code_list5: Expérience avec
+  code_list6a: CMake + expérience dans le maintient de compatibilité inter-plateforme
+  code_list6b: toutes les plateformes supportées
+  code_list7: Système d'anonymisation et familiarité avec diverses documentations de réseau de mélange (*mix-network*)
+  code_list8: Familiarité avec les spécifications couvrant à la fois les surcouches réseau communes (I2P/Tor) de même que les systèmes émergeants (comme Kaztenpost/Panoramix)
+  code_list9: En bonus une expérience avec Bash/Python et Docker (tous sont utilisé dans notre réseau de test (*testnet*) actuel)
+  vision: Soutenir la Vision
+  vision_para1: Nous sommes ouverts individus de tous bords qui pensent pouvoir contribuer d'une manière significative. Nous encourageons toute personne intéressée à voir la rubrique
+  vision_para2: contact et support
+  vision_para3: pour partager leurs idées.
+  vision_para4: Si vous vous sentez de soutenir financièrement le développement de Kovri, vous pouvez donner fond général du projet Monero (Kovri est sous intendance de l'équipe cœur (*Core Team*) du projet Monero). Des informations sur les dons sont disponibles sur la
+  vision_para5: page de contribution.
