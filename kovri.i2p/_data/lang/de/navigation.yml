@@ -1,16 +1,16 @@
-- title: Get Started
+- title: Erste Schritte
   url: get-started.html
 - title: Download
   url: https://github.com/monero-project/kovri#nightly-releases-bleeding-edge
-- title: Allgemein
+- title: Mitwirken
   url: contributing.html
 - title: FAQ
   url: faq.html
-- title: Docs
+- title: Dokumentation
   subfolderitems:
-  - page: User Guide
+  - page: Benutzerhandbuch
     url: user-guide.html
-  - page: Developer Guide
+  - page: Entwicklerhandbuch
     url: developer-guide.html
   - page: Doxygen
     url: doxygen/
