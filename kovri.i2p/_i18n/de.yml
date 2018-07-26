@@ -59,7 +59,7 @@ get-started:
   firewall: 3. NAT/Firewall öffnen
   firewall_para1: Kovri sollte zufällig einen neuen Port generieren, den es beim Start verwendet, aber falls du deinen eigenen wählen willst, kannst du in kovri.conf jeden Port zwischen 9111 und 30777 festlegen. Im
   firewall_para2: Benutzerhandbuch
-  firewall_para3: in der Dokumentation finden sich hierzu mehr Details.
+   firewall_para3: in der Dokumentation finden sich hierzu mehr Details.
   opsec: Halt! Reden wir über operative Sicherheit (Opsec)
   opsec_para: Kovri kann dir bis zu einem gewissen Punkt helfen, anonym zu bleiben, aber es kann nicht vor Benutzerfehlern schützen. Aus diesem Grund haben wir einige Opsec-bezogenen organisatorischen Empfehlungen.
   opsec_list1: Erstelle einen designierten Benutzer, um Kovri auszuführen, und führe Kovri NUR mit diesem Benutzer aus.
