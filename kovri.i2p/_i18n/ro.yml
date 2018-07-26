@@ -1,5 +1,5 @@
 global:
-  language: Romanian
+  language: Română
   lang-class: romanian
   no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
   site-source: Site source code
@@ -17,20 +17,20 @@ langs:
   ro: Română
   
 titles:
-  index: What is Kovri?
-  get-started: Get Started
-  intro: Introduction
-  acknowledgements: Acknowledgements
-  quality: Quality Assurance
-  contributing: General Contribution Guidelines
-  building: Building Instructions
-  faq: FAQ
+  index: Ce este Kovri?
+  get-started: Începe aici
+  intro: Introducere
+  acknowledgements: Mulțumiri
+  quality: Asigurarea calității
+  contributing: Recomandări pentru contribuții
+  building: Intrucțiuni pentru compilare
+  faq: Întrebări frecvente
   style: Style Guide
-  user: User Guide
+  user: Ghidul utilizatorului
   legal: Legal
-  docs: Kovri Documentation
-  blog: Kovri Blog Posts
-  dev: Developer Guide
+  docs: Documentația Kovri
+  blog: Articole în blog-ul Kovri
+  devȘ Ghidul dezvoltatorului
 
 home:
   main_para1: Kovri is a free, decentralized, anonymity technology developed by Monero.
