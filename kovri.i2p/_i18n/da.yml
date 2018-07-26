@@ -69,7 +69,7 @@ get-started:
   opsec_list3-1: Efter at have installeret de fornødne ressourcer i din kovri datasti, bør du overveje at tilføje en passende adgangskontrol med 
   opsec_list3-2: ", eller lignende som dit operativ system bruger for ACL."
   opsec_list3-3: "Note: se kovri.conf for at finde din datasti for Linux/OSX/Windows"
-    opsec_list4: Del aldrig dit port nummer med nogen da det vil påvirke din anonymitet!
+  opsec_list4: Del aldrig dit port nummer med nogen da det vil påvirke din anonymitet!
   tunnels: 5. Opsæt Tunneler
   tunnels_para1: Der findes to typer tunneller, client og server. Clienttunneller bruges til at forbinde til andre tjenester og servertuneller bruges, hvis du vil hoste dine egne tjenester. For at lære hvordan du tilføjer eller fjerner tuneller, læs 
   tunnels_para2: Brugermanualen
@@ -79,6 +79,7 @@ get-started:
   run_para2: i din terminal. Når den er tilsluttet bør det tage cirka 5 minutter at starte op til netværket og begynde at bruge tjenester, så vær tålmodig. Husk at
   run_para3: rapportere eventuelle fejl
   run_para4: hvis der opstår problemer. Se? Det var ikke så svært, var det? God fornøjelse!
+
 contributing:
   title: Bidrag til Kovri
   code: Kodeudvikling
@@ -95,7 +96,7 @@ contributing:
   code_list7: Anonymitetssystemer og bekendt med litteraturen for de forskellige mix-netværk
   code_list8: Bekendt med specifikationer der dækker både de almindelige overlagsnetværk (I2P/Tor) såvel som fremspirende systemer (såsom Kaztenpost/Panoramix)
   code_list9: Ekstra bonus ville være erfaring med Bash/Python og Docker (som alle bruges i vores nuværende testnet)
- vision: Støt visionen
+  vision: Støt visionen
   vision_para1: Vi er åbne overfor individer fra alle felter, der mener de har noget at bidrage med. Vi opfordrer alle interesserede til 
   vision_para2: kontakt og support
   vision_para3: sektionen for at dele dine idéer.

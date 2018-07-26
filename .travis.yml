@@ -1,0 +1,18 @@
+sudo: false
+language: ruby
+cache: bundler
+rvm:
+- 2.4.2
+
+before_script: 
+  cd kovri.i2p
+
+install:
+  # Install Jekyll and dependencies
+  - bundle install
+
+script: bundle exec jekyll serve #--trace
+
+branches:
+  only:
+- master

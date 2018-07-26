@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 3.6.2"
+gem "github-pages", "~> 168"
+gem "rake", "~> 12.3.0"
+gem "jekyll-multiple-languages-plugin", "~> 1.5.1"
+gem "jekyll-paginate", "1.1.0"
