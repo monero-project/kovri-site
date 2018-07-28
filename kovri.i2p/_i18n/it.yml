@@ -2,7 +2,7 @@ global:
   language: Italiano
   lang-class: italian
   no-js: No javascript - No cookies - No web analytics trackers - Open Sourced
-  site-source: Site source code
+  site-source: Codice Sorgente 
   kovri: Kovri
   comingsoon: Coming soon
 
@@ -17,88 +17,88 @@ langs:
 
 titles:
   index: Cos' è Kovri?
-  get-started: Get StartedS
-  intro: Introduction
-  acknowledgements: Acknowledgements
+  get-started: Inizia da qui
+  intro: Introduzione
+  acknowledgements: Ringraziamenti
   quality: Qualità
   contributing: Linee guida per contribuire
   building: Istruzioni per la compilazione
   faq: FAQ
   style: Guida per lo stile
   user: Guida per l'utente
-  legal: Legal
+  legal: Legale
   docs: Kovri Documentation
   blog: Kovri Blog Posts
-  dev: Developer Guide
+  dev: Guida per gli sviluppatori
 
 
 home:
-  main_para1: Kovri is a free, decentralized, anonymity technology developed by Monero.
-  main_para2: Currently based on I2P’s open specifications, Kovri uses both garlic encryption and garlic routing to create a private, protected overlay-network across the internet. This overlay-network provides users with the ability to effectively hide their geographical location and internet IP address.
-  main_para3: Essentially, Kovri covers an application’s internet traffic to make it anonymous within the network.
-  main_para4: A lightweight and security-focused router, Kovri is fully compatible with the I2P network. An alpha version of Kovri is in the works.
-  main_para5: Watch development via the Kovri repo and join the community.
-  main_button: Get Started
-  whatiskovri: What is Kovri?
+  main_para1: Kovri è una tecnologia libera, decentralizzata e anonima sviluppata da Monero.
+  main_para2: Attualmente basato sulle specifiche aperte di I2P, Kovri utilizza la garlic encryption e il garlic routing per creare una rete overlay protetta e privata su internet. Questa rete overlay offre agli utenti la possibilità di nascondere in modo efficace la loro posizione geografica e l’indirizzo IP di Internet.
+  main_para3: Fondamentalmente, Kovri nasconde il traffico internet di un’applicazione per renderlo anonimo all’interno della rete.
+  main_para4: Un router leggero e orientato alla sicurezza, Kovri è completamente compatibile con la rete I2P. Una versione alfa di Kovri è in fase di sviluppo.
+  main_para5: Guarda lo sviluppo attraverso le repositories di Kovri e unisciti alla community.
+  main_button: Inizia da qui
+  whatiskovri: Cos'è Kovri?
   downloads: Downloads
   binaries: Kovri Binaries
   buildsource: Build from Source
   blog: Blog
   
 get-started:
-  intro1: A quickstart guide for getting Kovri up and running.
-  support: 1. Contact & Support
-  support_para1: First off, if you run into trouble on any of these steps, it's useful to know where you can find help. Please go to our
-  support_para2: IRC channel for general Kovri inquiries and our
-  support_para3: channel for questions that are development related. Ask your question and be patient as you wait for an answer.
-  download: 2. Download Kovri
-  download_para1: Download one of the binaries
-  download_para2: or build from source (see the
-  download_para3: Building section
-  download_para4: in the documentation for details).
-  firewall: 3. Open NAT/Firewall
-  firewall_para1: Kovri should randomly generate a new port to use on startup, but if you want to choose your own, you can go to kovri.conf and set any port between 9111 and 30777. See the
-  firewall_para2: User Guide
-  firewall_para3: in the documentation for more details.
-  opsec: Stop! Let's talk about Operational Security (Opsec)
-  opsec_para: Kovri can help keep you anonymous to a point, but it can't defend against user error. For this reason, we recommend a few opsec-related housekeeping things.
-  opsec_list1: Make a designated user for running Kovri, and ONLY run Kovri using that user.
-  opsec_list2-1: We recommend using Linux, and a even then consider using a hardened kernel (such as
+  intro1: Una guida rapida per installare e far funzionare Kovri.
+  support: 1. Contatti & Supporto
+  support_para1: Prima di tutto, se incontri delle difficoltà su uno di questi passaggi, è utile sapere dove puoi trovare aiuto. Per favore vai al nostro
+  support_para2: canale IRC per domande generali riguardo Kovri e al nostro
+  support_para3: canale per domande legate allo sviluppo. Fai la tua domanda e sii paziente mentre aspetti una risposta.
+  download: 2. Scarica Kovri
+  download_para1: Scarica uno dei file binari
+  download_para2: o compila dalla sorgente (vedi la
+  download_para3: sezione Compilazione
+  download_para4: nella documentazione per dettagli).
+  firewall: 3. Apri NAT/Firewall
+  firewall_para1: Kovri all’avvio dovrebbe generare casualmente una nuova porta da utilizzare, ma se si desidera scegliere la propria, puoi andare su kovri.conf e impostare qualsiasi porta tra 9111 e 30777. Vedi la
+  firewall_para2: Guida Utenti
+  firewall_para3: nella documentazione per maggiori dettagli.
+  opsec: Stop! Parliamo di Operational Security (Opsec)
+  opsec_para: Kovri può aiutarti a rimanere anonimo fino a un certo punto, ma non può difendersi da errori dell’utente. Per questo motivo, raccomandiamo alcune norme relative alla Opsec.
+  opsec_list1: Crea un utente designato per l’esecuzione di Kovri, ed esegui SOLO Kovri usando quell’utente.
+  opsec_list2-1: Raccomandiamo l’uso di Linux, e anche allora considera di utilizzare un hardened kernel (ad esempio
   opsec_list2-2: grsec
-  opsec_list2-3: with RBAC)
-  opsec_list3-1: After installing the appropriate resources in your kovri data path, consider setting appropriate access control with
-  opsec_list3-2: ", or whatever your OS uses for ACL."
-  opsec_list3-3: "Note: see kovri.conf to find your data path for Linux/OSX/Windows"
-  opsec_list4: Never share your port number with anyone as it will effect your anonymity!
-  tunnels: 5. Set up Tunnels
-  tunnels_para1: There's two types of tunnels, client and server. Client tunnels are used to connect to other services and server tunnels are used if you want to host your own services. To learn how to add or remove tunnels, read the
-  tunnels_para2: User Guide
-  tunnels_para3: for details.
-  run: 6. Run Kovri
-  run_para1: Here you are. You're almost done. Now the only thing left to do is to run
-  run_para2: in your terminal. Once connected, it should take about 5 minutes to bootstrap into the network and start using services, so be patient. Remember to
-  run_para3: report any bugs
-  run_para4: if you run into any trouble. See? That wasn't so hard, was it? Have fun!
+  opsec_list2-3: con RBAC)
+  opsec_list3-1: Dopo aver installato le risorse appropriate nel percorso dei dati di Kovri, valuta l’opportunità di impostare un controllo di accesso appropriato con
+  opsec_list3-2: ", o qualsiasi altra cosa il tuo sistema operativo utilizza per ACL.”
+  opsec_list3-3: “Nota: consultare kovri.conf per trovare il percorso dei dati per Linux/OSX/Windows”
+  opsec_list4: Non condividere mai il tuo numero di porta con nessuno in quanto avrà effetto sul tuo anonimato!
+  tunnels: 5. Imposta i Tunnel
+  tunnels_para1: Esistono due tipi di tunnel, client e server. I tunnel client vengono utilizzati per connettersi ad altri servizi mentre i tunnel server vengono utilizzati se si desidera ospitare i propri servizi. Per sapere come aggiungere o rimuovere tunnel, leggi la
+  tunnels_para2: Guida Utente
+  tunnels_para3: per dettagli.
+  run: 6. Esegui Kovri
+  run_para1: Ecco qui. Hai quasi finito. Ora l’unica cosa che resta da fare è eseguire
+  run_para2: nel tuo terminale. Una volta connesso, occorrono circa 5 minuti per eseguire il bootstrap nella rete e iniziare a utilizzare i servizi, quindi sii paziente. Ricordati di
+  run_para3: segnalare eventuali bug
+  run_para4: se incontri qualche problema. Vedi? Non è stato così difficile, vero? Divertiti!
 
 contributing:
-  title: Contributing to Kovri
-  code: Code Development
-  code_para1: Kovri is a community project, and appreciates quality code contributions from volunteer developers. Visit our
-  code_para2: contact and support
-  code_para3: "section to get started with code development. The following requisites should be considered:"
-  code_list1: C++14 and higher
-  code_list2: Boost 1.58 or higher
-  code_list3: Network programming with Boost
-  code_list4: Cryptography
-  code_list5: Experience with
-  code_list6a: CMake + experience maintaining cross-platform compatibility
-  code_list6b: all supported platforms 
-  code_list7: Anonymity systems and familiar with the various mix-network literature
-  code_list8: Familiar with specifications that cover both the common overlay networks (I2P/Tor) as well as emerging systems (such as Kaztenpost/Panoramix)
-  code_list9: Added bonuses would be experience with Bash/Python and Docker (all are used in our current testnet)
-  vision: Supporting the Vision
-  vision_para1: We are open to individual of all fields who think they can contribute in a meaningful way. We encourage anyone interested to
-  vision_para2: contact and support
-  vision_para3: section and share your ideas.
-  vision_para4: If you feel led to give financially to the development of Kovri, you can give to The Monero Project general fund (Kovri is under the stewardship of the Core Team of the Monero Project). Information on donating can be found on Monero's
-  vision_para5: contribution page.
+  title: Contribuire a Kovri
+  code: Sviluppo del Codice
+  code_para1: Kovri è un progetto comunitario e apprezza contributi al codice di qualità da sviluppatori volontari. Visita la nostra sezione 
+  code_para2: contatti e supporto
+  code_para3: “per iniziare con lo sviluppo del codice. I seguenti requisiti dovrebbero essere considerati:“
+  code_list1: C++14 e versioni successive
+  code_list2: Boost 1.58 o versioni successive
+  code_list3: Programmazione di rete con Boost
+  code_list4: Crittografia
+  code_list5: 
+  code_list6a: Esperienza con CMake + nel mantenimento della compatibilità multipiattaforma
+  code_list6b: tutte le piattaforme supportate 
+  code_list7: Sistemi di anonimato e familiarità con le varie pubblicazioni su mix-network
+  code_list8: Familiarità con le specifiche che coprono sia le reti di overlay comuni (I2P/Tor) che i sistemi emergenti(come Kaztenpost/Panoramix)
+  code_list9: Bonus aggiuntivi sarebbero esperienza con Bash/Python e Docker (sono tutti usati nella nostra attuale testnet)
+  vision: Sostenere l’Idea
+  vision_para1: Siamo aperti alle persone di tutti i campi che pensano di poter contribuire in modo significativo. Incoraggiamo chiunque sia interessato a visitare la sezione
+  vision_para2: contatti e supporto
+  vision_para3: e a condividere la proprie idee
+  vision_para4: Se ti senti di contribuire finanziariamente allo sviluppo di Kovri, puoi donare al fondo generale The Monero Project (Kovri è sotto la guida del Core Team di Monero Project). Le informazioni su come donare possono essere trovate sulla
+  vision_para5: pagina contribuire di Monero.
