@@ -1,0 +1,16 @@
+- title: Începe aici
+  url: get-started.html
+- title: Descarcă
+  url: https://github.com/monero-project/kovri#nightly-releases-bleeding-edge
+- title: Contribuții
+  url: contributing.html
+- title: Întrebări frecvente
+  url: faq.html
+- title: Documentație
+  subfolderitems:
+  - page: Ghidul utilizatorului
+    url: user-guide.html
+  - page: Ghidul dezvolatorului
+    url: developer-guide.html
+  - page: Doxygen
+    url: doxygen/
