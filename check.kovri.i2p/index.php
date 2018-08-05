@@ -70,7 +70,7 @@
              }
            ?>
            <div class="box">
-           <h2>Your public destination [identity = keys (pub enc + pub sign) + cert]</h2>
+           <h2>Your local client destination (identity = keys [pub enc + pub sign] + cert)</h2>
            </div>
            <?php
              foreach ($headers as $header => $value)
