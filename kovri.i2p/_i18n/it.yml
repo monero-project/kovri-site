@@ -67,8 +67,10 @@ get-started:
   opsec_list2-2: grsec
   opsec_list2-3: con RBAC)
   opsec_list3-1: Dopo aver installato le risorse appropriate nel percorso dei dati di Kovri, valuta l’opportunità di impostare un controllo di accesso appropriato con
-  opsec_list3-2: ", o qualsiasi altra cosa il tuo sistema operativo utilizza per ACL.”
-  opsec_list3-3: “Nota: consultare kovri.conf per trovare il percorso dei dati per Linux/OSX/Windows”
+  opsec_list3-2: |
+    ", o qualsiasi altra cosa il tuo sistema operativo utilizza per ACL.”
+  opsec_list3-3: |
+    “Nota: consultare kovri.conf per trovare il percorso dei dati per Linux/OSX/Windows”
   opsec_list4: Non condividere mai il tuo numero di porta con nessuno in quanto avrà effetto sul tuo anonimato!
   tunnels: 5. Imposta i Tunnel
   tunnels_para1: Esistono due tipi di tunnel, client e server. I tunnel client vengono utilizzati per connettersi ad altri servizi mentre i tunnel server vengono utilizzati se si desidera ospitare i propri servizi. Per sapere come aggiungere o rimuovere tunnel, leggi la
